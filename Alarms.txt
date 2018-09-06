@@ -1,0 +1,50 @@
+Alarm 1.1	DANGER: Cooling Reservoir Temperature is 190°F. Troubleshoot system immediately. Consider suspending operations immediately.
+Alarm 1.2	WARNING: Cooling Reservoir Temperature is above 170°F. Troubleshoot system immediately. Consider suspending operations.
+Alarm 1.3	Caution: Cooling Reservoir Temperature is above 150°F. Troubleshoot system immediately.
+Alarm 1.4	Notice: Cooling Reservoir Temperature is above 130°F. Troubleshoot system as soon as possible.
+Alarm 2.1	DANGER: Cooling reservoir temp is high compared to ambient temp. Check cooling function and make sure sensors are accurate. Consider suspending operations.
+Alarm 2.2	WARNING: Cooling reservoir temp is high compared to ambient temp. Check cooling function and make sure sensors are accurate. Consider suspending operations.
+Alarm 2.3	Caution: Cooling reservoir temp is high compared to ambient temp. Check cooling function and make sure sensors are accurate. Ambient Temperature is high relative to the cooling fluid temperature. Ensure sensors are accurate and coolers are functioning. Monitor Bearing and Cooling temperatures.
+Alarm 2.4	Notice: Cooling reservoir temp is high compared to ambient temp. Check cooling function and make sure sensors are accurate.
+Alarm 3.1	DANGER: Bearing return fluid temperature is above 200°F. Troubleshoot system immediately. Consider suspending operations immediately.
+Alarm 3.2	WARNING: Bearing return fluid temperature is above 180°F. Troubleshoot system immediately. Consider suspending operations.
+Alarm 3.3	Caution: Bearing return fluid temperature is above 160°F. Troubleshoot system immediately.
+Alarm 3.4	Notice: Bearing return fluid temperature is above 140°F. Troubleshoot system as soon as possible.
+Alarm 4.3	Caution: Bearing return fluid temperature is low relative to the coolant reservoir temperature. Ensure sensors are accurate and flow is going through the Bearing. Monitor Bearing and Cooling temperatures.
+Alarm 5.3	Caution: Ambient Temperature is above 120°F. Ensure sensor is accurate and cooler fans are turned on. Monitor Bearing and Cooling temperatures.
+Alarm 6.2	WARNING: Coolant level sensor malfunction. Check reservoir level visually immediately and troubleshoot system.
+Alarm 7.1	DANGER: Coolant reservoir usable level is below 20%. Troubleshoot and check for leaks immediately. Monitor level. Consider topping off.
+Alarm 7.2	WARNING: Coolant reservoir usable level is below 40%. Check for leaks. Monitor level. Consider topping off.
+Alarm 8.3	Caution: Coolant level is above 95%. Troubleshoot and check for cross contamination immediately. Monitor level. Consider emptying some fluid from system.
+Alarm 9.2	WARNING: Lubrication Reservoir Temperature is above 120°F. Ensure sensor is accurate and heater is working properly.
+Alarm 10.2	WARNING: Lubrication oil level sensor malfunction. Check reservoir level visually immediately and troubleshoot system.
+Alarm 11.1	DANGER: Lubrication oil level is below 10%. Troubleshoot and check for leaks immediately. Monitor level. Refill immediately.
+Alarm 11.2	WARNING: Lubrication oil level is below 20%. Check for leaks. Monitor level. Refill immediately.
+Alarm 11.3	Caution: Lubrication oil level is below 30%. Monitor level. Refill as soon as possible.
+Alarm 12.3	Caution: Lubrication oil level is above 95%. Monitor level. Consider emptying some fluid from system.
+Alarm 13.2	WARNING: Latch fluid reservoir level sensor malfunction. Check reservoir level visually immediately and troubleshoot system.
+Alarm 14.1	DANGER: Latch fluid reservoir level is below 30%. Troubleshoot and check for leaks immediately. Monitor level. Consider topping off.
+Alarm 14.2	WARNING: Latch fluid reservoir level is below 50%. Check for leaks. Monitor level. Consider topping off.
+Alarm 15.3	Caution: Latch fluid reservoir level is above 90%. Troubleshoot immediately. Monitor level.
+Alarm 16.1	DANGER: Lube pressure is less than wellbore pressure. Troubleshoot and check for leaks immediately. Consider bearing replacement.
+Alarm 16.3	Caution: Lube circuit differential is low. Troubleshoot and check for leaks.
+Alarm 17.3	Caution: Lube pressure differential is too high. Check function of pumps, valves, regulators, and pressure sensors.
+Alarm 18.2	WARNING: Seal Bore Protector Process. 30 second timer value reached. Cooling Pressure to Bearing failed to reach 1300 PSI setpoint. Troubleshoot and check for leaks immediately.
+Alarm 19.3	Caution: Bearing Pressure (PT006) different than PT005 +/- 10% for  three time cycles.
+Alarm 20.2	WARNING:  Cooling Pressure from Bearing in SBP mode different than Cooling Pressure from Bearing within 2%. Troubleshoot and ensure that sensors are working properly.
+Alarm 21.4	Notice:  Accessory Valve 1 failed to open. 10 sec timeout reached. Check solenoid operation
+Alarm 22.4	Notice:  Accessory Valve 1 failed to close. 10 sec timeout reached. Check solenoid operation
+Alarm 23.4	Notice:  Accessory Valve 2 failed to open. 10 sec timeout reached. Check solenoid operation
+Alarm 24.4	Notice:  Accessory Valve 2 failed to close. 10 sec timeout reached. Check solenoid operation
+Alarm 25.4	Notice:  Accessory Valve 3 failed to open. 10 sec timeout reached. Check solenoid operation
+Alarm 26.4	Notice:  Accessory Valve 3 failed to close. 10 sec timeout reached. Check solenoid operation
+Alarm 27.4	Notice:  Accessory Valve 4 failed to open. 10 sec timeout reached. Check solenoid operation
+Alarm 28.4	Notice:  Accessory Valve 4 failed to close. 10 sec timeout reached. Check solenoid operation
+Alarm 29.4	Notice:  Accessory Valve 5 failed to open. 10 sec timeout reached. Check solenoid operation
+Alarm 30.4	Notice:  Accessory Valve 5 failed to close. 10 sec timeout reached. Check solenoid operation
+Alarm 31.4	Notice:  Accessory Valve 6 failed to open. 10 sec timeout reached. Check solenoid operation
+Alarm 32.4	Notice:  Accessory Valve 6 failed to close. 10 sec timeout reached. Check solenoid operation
+Alarm 33.4	Notice:  Accessory Valve 7 failed to open. 10 sec timeout reached. Check solenoid operation
+Alarm 34.4	Notice:  Accessory Valve 7 failed to close. 10 sec timeout reached. Check solenoid operation
+Alarm 35.4	Notice:  Accessory Valve 8 failed to open. 10 sec timeout reached. Check solenoid operation
+Alarm 36.4	Notice:  Accessory Valve 8 failed to close. 10 sec timeout reached. Check solenoid operation
