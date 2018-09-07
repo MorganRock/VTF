@@ -263,6 +263,7 @@
 			<Item Name="Machine State.ctl" Type="VI" URL="../Controls/Machine State.ctl"/>
 			<Item Name="OT State.ctl" Type="VI" URL="../Controls/OT State.ctl"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
+			<Item Name="Sensor CalPara.ctl" Type="VI" URL="../Controls/Sensor CalPara.ctl"/>
 			<Item Name="Settings.ctl" Type="VI" URL="../Controls/Settings.ctl"/>
 			<Item Name="Shared Variable References.ctl" Type="VI" URL="../Controls/Shared Variable References.ctl"/>
 			<Item Name="Status Message.ctl" Type="VI" URL="../Controls/Status Message.ctl"/>
@@ -309,6 +310,7 @@
 			<Item Name="Message - Password.vi" Type="VI" URL="../Support/Message - Password.vi"/>
 			<Item Name="NextStep.vi" Type="VI" URL="../Support/NextStep.vi"/>
 			<Item Name="DispalyStatus.vi" Type="VI" URL="../Support/DispalyStatus.vi"/>
+			<Item Name="Sensor Calibration.vi" Type="VI" URL="../Support/Sensor Calibration.vi"/>
 		</Item>
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Calibration.vi" Type="VI" URL="../Test VIs/Calibration.vi"/>
