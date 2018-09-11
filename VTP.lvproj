@@ -639,35 +639,37 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Controls" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Actions.ctl" Type="VI" URL="../Controls/Actions.ctl"/>
 			<Item Name="All Control Configuration Values.ctl" Type="VI" URL="../Controls/All Control Configuration Values.ctl"/>
 			<Item Name="BMB Sensors.ctl" Type="VI" URL="../Controls/BMB Sensors.ctl"/>
 			<Item Name="BR State.ctl" Type="VI" URL="../Controls/BR State.ctl"/>
+			<Item Name="Calibration Cluster.ctl" Type="VI" URL="../Controls/Calibration Cluster.ctl"/>
 			<Item Name="Clamp State.ctl" Type="VI" URL="../Controls/Clamp State.ctl"/>
 			<Item Name="Clean State.ctl" Type="VI" URL="../Controls/Clean State.ctl"/>
 			<Item Name="Config.ctl" Type="VI" URL="../Controls/Config.ctl"/>
+			<Item Name="ConfigCalibration.ctl" Type="VI" URL="../Controls/ConfigCalibration.ctl"/>
+			<Item Name="ConfigData.ctl" Type="VI" URL="../Controls/ConfigData.ctl"/>
+			<Item Name="ConfigString.ctl" Type="VI" URL="../Controls/ConfigString.ctl"/>
 			<Item Name="Control Mode.ctl" Type="VI" URL="../Controls/Control Mode.ctl"/>
 			<Item Name="DI Status Message.ctl" Type="VI" URL="../Controls/DI Status Message.ctl"/>
 			<Item Name="DL State.ctl" Type="VI" URL="../Controls/DL State.ctl"/>
 			<Item Name="DLT State.ctl" Type="VI" URL="../Controls/DLT State.ctl"/>
-			<Item Name="VTF Sensors.ctl" Type="VI" URL="../Controls/VTF Sensors.ctl"/>
 			<Item Name="IT State.ctl" Type="VI" URL="../Controls/IT State.ctl"/>
 			<Item Name="Machine State.ctl" Type="VI" URL="../Controls/Machine State.ctl"/>
 			<Item Name="OT State.ctl" Type="VI" URL="../Controls/OT State.ctl"/>
+			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
 			<Item Name="RT Loop - UI Communication State.ctl" Type="VI" URL="../Controls/RT Loop - UI Communication State.ctl"/>
+			<Item Name="Sensor CalPara.ctl" Type="VI" URL="../Controls/Sensor CalPara.ctl"/>
+			<Item Name="Settings.ctl" Type="VI" URL="../Controls/Settings.ctl"/>
 			<Item Name="Status Message.ctl" Type="VI" URL="../Controls/Status Message.ctl"/>
 			<Item Name="Timeout Message.ctl" Type="VI" URL="../Controls/Timeout Message.ctl"/>
+			<Item Name="Timeouts.ctl" Type="VI" URL="../Controls/Timeouts.ctl"/>
 			<Item Name="TWT State.ctl" Type="VI" URL="../Controls/TWT State.ctl"/>
 			<Item Name="Valve List.ctl" Type="VI" URL="../Controls/Valve List.ctl"/>
 			<Item Name="ValveState.ctl" Type="VI" URL="../Controls/ValveState.ctl"/>
 			<Item Name="ValveUpdate.ctl" Type="VI" URL="../Controls/ValveUpdate.ctl"/>
-			<Item Name="Actions.ctl" Type="VI" URL="../Controls/Actions.ctl"/>
-			<Item Name="ConfigCalibration.ctl" Type="VI" URL="../Controls/ConfigCalibration.ctl"/>
-			<Item Name="Calibration Cluster.ctl" Type="VI" URL="../Controls/Calibration Cluster.ctl"/>
-			<Item Name="Settings.ctl" Type="VI" URL="../Controls/Settings.ctl"/>
-			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
-			<Item Name="ConfigString.ctl" Type="VI" URL="../Controls/ConfigString.ctl"/>
-			<Item Name="ConfigData.ctl" Type="VI" URL="../Controls/ConfigData.ctl"/>
-			<Item Name="Timeouts.ctl" Type="VI" URL="../Controls/Timeouts.ctl"/>
+			<Item Name="VTF Sensors.ctl" Type="VI" URL="../Controls/VTF Sensors.ctl"/>
 		</Item>
 		<Item Name="Error Handlers" Type="Folder">
 			<Item Name="RT Error Handler - Message Handler.vi" Type="VI" URL="../RT Error Handlers/RT Error Handler - Message Handler.vi"/>

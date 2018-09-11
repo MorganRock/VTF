@@ -251,20 +251,20 @@
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">4</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">Config.ctl</Property>
-		<Property Name="typedefName2" Type="Str">Parameters.ctl</Property>
+		<Property Name="typedefName1" Type="Str">Parameters.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Sensor CalPara.ctl</Property>
 		<Property Name="typedefName3" Type="Str">Settings.ctl</Property>
 		<Property Name="typedefName4" Type="Str">Timeouts.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../Controls/Config.ctl</Property>
-		<Property Name="typedefPath2" Type="PathRel">../../Controls/Parameters.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Controls/Parameters.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../Controls/Sensor CalPara.ctl</Property>
 		<Property Name="typedefPath3" Type="PathRel">../../Controls/Settings.ctl</Property>
 		<Property Name="typedefPath4" Type="PathRel">../../Controls/Timeouts.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!.@7Q-!!"A!A!!!!!!&gt;!!V!#A!(6&amp;&gt;56#"05!!01!I!#&amp;286&amp;1A5%21!!!.1!I!"E2-6#"05!!!%5!+!!J%4&amp;1A5%21)$!R!!!21!I!#E2-6#"12&amp;!A-$)!!!N!#A!&amp;1F)A4V!!%U!+!!R#5C"56V1A15R*2UY!!"&amp;!#A!,1F)A2%QA15R*2UY!.Q$RV%$OEQ!!!!%+1W^O:GFH,G.U&lt;!!E1&amp;!!#!!!!!%!!A!$!!1!"1!'!!=)5%21)#B*4CE!!".!#A!.3&amp;"-)%RP&gt;S!I5&amp;.*+1!61!I!$EB14#");7&gt;I)#B15UEJ!!!41!I!$5B13#"-&lt;X=A+&amp;"433E!&amp;5!+!!Z)5%AA3'FH;#!I5&amp;.*+1!!%U!+!!R"5#"-&lt;X=A+&amp;"433E!!".!#A!.16!A3'FH;#!I5&amp;.*+1!61!I!$E2-)%.M:7&amp;O)#B425-J!!!21!I!#V*F=W6U)#B.35YJ!$E!]&gt;2!\NA!!!!"$&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!E1&amp;!!#!!*!!I!#Q!-!!U!$A!0!"!)5U656%F/2V-!!"&amp;!#A!+6&amp;&gt;56#"%=GFW:1!!$U!+!!B%4#"%=GFW:1!!$U!+!!F%4#"3&lt;X2B&gt;'5!$U!+!!B#5C"%=GFW:1!!$U!+!!F06#"&amp;&lt;G&gt;B:W5!%5!+!!J14&amp;6()%2S;8:F!!!01!I!#5F5)%6O:W&amp;H:1!.1!I!"UF5)$&amp;3269!$5!+!!&gt;*6#"O5E67!%%!]&gt;2!\R1!!!!"$&amp;2J&lt;76P&gt;82T,G.U&lt;!!M1&amp;!!#1!3!"-!&amp;!!6!"9!&amp;Q!9!"E!'AZ535V&amp;4V655S!I5U6$+1!!.1$RV%%6BQ!!!!%/5'&amp;S97VF&gt;'6S=SZD&gt;'Q!(E"1!!-!#!!2!"M.1U^/2EF(66*"6%F04A!"!"Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$N[1!!!"A!A!!!!!!&amp;!!N!#A!&amp;5WRP='5!$U!+!!F*&lt;H2F=G.F=(1!.Q$R!!!!!!!!!!%35W6O=W^S)%.B&lt;&amp;"B=G%O9X2M!"R!5!!#!!!!!1R#&lt;W2Z)%.B&lt;&amp;"B=G%!!$5!]1!!!!!!!!!"%F.F&lt;H.P=C"$97R198*B,G.U&lt;!!;1&amp;!!!A!!!!%+66-A1W&amp;M5'&amp;S91!!-Q$R!!!!!!!!!!%/5'&amp;S97VF&gt;'6S=SZD&gt;'Q!(%"1!!)!!A!$$5.04E:*2V63162*4UY!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Run All Steps" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
