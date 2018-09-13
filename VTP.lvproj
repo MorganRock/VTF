@@ -80,7 +80,7 @@
 	<Property Name="varPersistentID:{5D2557B0-5853-4E4B-B993-E7BF96B4C432}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/23BMEncoderB</Property>
 	<Property Name="varPersistentID:{5D490366-CD17-49F2-8A31-F77BC0811910}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/AI9</Property>
 	<Property Name="varPersistentID:{5D99AE31-6C19-47D6-BB59-9AD4C8B2F055}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/04WINLTemp</Property>
-	<Property Name="varPersistentID:{606D5DD5-B542-445A-80CA-3DA5C0285833}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/DL State</Property>
+	<Property Name="varPersistentID:{606D5DD5-B542-445A-80CA-3DA5C0285833}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Pumps State</Property>
 	<Property Name="varPersistentID:{6728BD8F-6B00-4C57-AF32-95DD30C85FF6}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/03HEncoderINV0</Property>
 	<Property Name="varPersistentID:{674BC7A6-369C-4CFC-89DF-02FAF692E894}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/29LubePumpRun</Property>
 	<Property Name="varPersistentID:{680893D5-F60B-40B9-A74A-BAEC28DB8A6B}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/19HPUSkidLeak</Property>
@@ -255,7 +255,6 @@
 			<Item Name="Control Mode.ctl" Type="VI" URL="../Controls/Control Mode.ctl"/>
 			<Item Name="DI Status Message.ctl" Type="VI" URL="../Controls/DI Status Message.ctl"/>
 			<Item Name="DL State.ctl" Type="VI" URL="../Controls/DL State.ctl"/>
-			<Item Name="DLT State.ctl" Type="VI" URL="../Controls/DLT State.ctl"/>
 			<Item Name="E-CD+ State.ctl" Type="VI" URL="../Controls/E-CD+ State.ctl"/>
 			<Item Name="Info.ctl" Type="VI" URL="../Controls/Info.ctl"/>
 			<Item Name="IO References.ctl" Type="VI" URL="../Controls/IO References.ctl"/>
@@ -263,6 +262,7 @@
 			<Item Name="Machine State.ctl" Type="VI" URL="../Controls/Machine State.ctl"/>
 			<Item Name="OT State.ctl" Type="VI" URL="../Controls/OT State.ctl"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
+			<Item Name="Pumps State.ctl" Type="VI" URL="../Controls/Pumps State.ctl"/>
 			<Item Name="Sensor CalPara.ctl" Type="VI" URL="../Controls/Sensor CalPara.ctl"/>
 			<Item Name="Settings.ctl" Type="VI" URL="../Controls/Settings.ctl"/>
 			<Item Name="Shared Variable References.ctl" Type="VI" URL="../Controls/Shared Variable References.ctl"/>
@@ -654,11 +654,11 @@ DirectoryIndex index.htm
 			<Item Name="Control Mode.ctl" Type="VI" URL="../Controls/Control Mode.ctl"/>
 			<Item Name="DI Status Message.ctl" Type="VI" URL="../Controls/DI Status Message.ctl"/>
 			<Item Name="DL State.ctl" Type="VI" URL="../Controls/DL State.ctl"/>
-			<Item Name="DLT State.ctl" Type="VI" URL="../Controls/DLT State.ctl"/>
 			<Item Name="IT State.ctl" Type="VI" URL="../Controls/IT State.ctl"/>
 			<Item Name="Machine State.ctl" Type="VI" URL="../Controls/Machine State.ctl"/>
 			<Item Name="OT State.ctl" Type="VI" URL="../Controls/OT State.ctl"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
+			<Item Name="Pumps State.ctl" Type="VI" URL="../Controls/Pumps State.ctl"/>
 			<Item Name="RT Loop - UI Communication State.ctl" Type="VI" URL="../Controls/RT Loop - UI Communication State.ctl"/>
 			<Item Name="Sensor CalPara.ctl" Type="VI" URL="../Controls/Sensor CalPara.ctl"/>
 			<Item Name="Settings.ctl" Type="VI" URL="../Controls/Settings.ctl"/>
@@ -683,14 +683,15 @@ DirectoryIndex index.htm
 			<Item Name="Global - Configuration Options.vi" Type="VI" URL="../Globals/Global - Configuration Options.vi"/>
 			<Item Name="Global - Parameters.vi" Type="VI" URL="../Globals/Global - Parameters.vi"/>
 			<Item Name="Global - RT Stream Connections.vi" Type="VI" URL="../Globals/Global - RT Stream Connections.vi"/>
+			<Item Name="Global - RT Channels.vi" Type="VI" URL="../Globals/Global - RT Channels.vi"/>
 		</Item>
 		<Item Name="RT Loops" Type="Folder">
-			<Item Name="RT Loop - DL.vi" Type="VI" URL="../RT Loops/RT Loop - DL.vi"/>
 			<Item Name="RT Loop - Low Speed.vi" Type="VI" URL="../RT Loops/RT Loop - Low Speed.vi"/>
 			<Item Name="RT Loop - System Health and Monitoring.vi" Type="VI" URL="../RT Loops/RT Loop - System Health and Monitoring.vi"/>
 			<Item Name="RT Loop - UI Commands.vi" Type="VI" URL="../RT Loops/RT Loop - UI Commands.vi"/>
 			<Item Name="RT Loop - Watchdog.vi" Type="VI" URL="../RT Loops/RT Loop - Watchdog.vi"/>
 			<Item Name="RT Loop - Config Calibration.vi" Type="VI" URL="../RT Loops/RT Loop - Config Calibration.vi"/>
+			<Item Name="RT Loop - Pumps.vi" Type="VI" URL="../RT Loops/RT Loop - Pumps.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -4482,12 +4483,9 @@ DirectoryIndex index.htm
 			<Item Name="niwd4c.dll" Type="Document" URL="niwd4c.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="E-CD PLUS Original Design" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+			<Item Name="VTF Firmware" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{25558226-403C-4A71-B6C6-78131F117A61}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{741850CA-FE3C-44D0-9CF9-08E916B1A309}</Property>
@@ -4495,12 +4493,12 @@ DirectoryIndex index.htm
 				<Property Name="App_winsec.description" Type="Str">http://www.Halliburton.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{64875098-93DF-4E36-96E3-EA7827FCB7ED}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">E-CD PLUS Original Design</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">VTF Firmware</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/E-CD PLUS Original Design</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/VTF Firmware</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17F5AF77-A687-4994-AAA4-46678629FEA8}</Property>
@@ -4516,7 +4514,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1932F663-562B-48F5-AF7C-E6FEE67FA369}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{53C493D9-9F5E-4CB7-B2BF-64A8D40DE7AB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/192.168.1.2/RT Main.vi</Property>
@@ -4599,10 +4597,10 @@ DirectoryIndex index.htm
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_companyName" Type="Str">Halliburton</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">E-CD PLUS Original Design</Property>
-				<Property Name="TgtF_internalName" Type="Str">E-CD PLUS Original Design</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">VTF Firmware</Property>
+				<Property Name="TgtF_internalName" Type="Str">VTF Firmware</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Halliburton</Property>
-				<Property Name="TgtF_productName" Type="Str">E-CD PLUS Original Design</Property>
+				<Property Name="TgtF_productName" Type="Str">VTF Firmware</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6FFB3AFE-3D15-4281-AF0C-6FE6C93DD14F}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>

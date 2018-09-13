@@ -135,21 +135,6 @@
 		<Property Name="typedefPath1" Type="PathRel">../../Controls/Control Mode.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%A!!!!"A!A!!!!!!"!'Y!]1!!!!!!!!!"%%.P&lt;H2S&lt;WQA47^E:3ZD&gt;'Q!65!7!!1,5WNJ:#".97ZV97Q01W^N=(6U:8)A47&amp;O&gt;7&amp;M$F.U:8!A186U&lt;WVB&gt;'6E$U:V&lt;'RZ)%&amp;V&gt;'^N982F:!!!$%.P&lt;H2S&lt;WQA47^E:1!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="DL State" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">DL State.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../Controls/DL State.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#IJ!!!!"A!A!!!!!!"!*)!]&gt;1N/TY!!!!"$%2-)&amp;.U982F,G.U&lt;!"^1"9!"Q&gt;%4#"46%^1$%2-)&amp;*06%&amp;523"$6QV%4#"34V2"6%5A1U.8$V.7,4-A2%QA1V=A6&amp;*622"46CUT)%2-)%.8)%:"4&amp;.&amp;%&amp;.7,4-A2%QA1U.8)&amp;2365525V9N-S"%4#"$1V=A2E&amp;-5U5!!!B%4#"46%&amp;521!!!1!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="DLT State" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -164,9 +149,9 @@
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">DLT State.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../Controls/DLT State.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&amp;!1%!!"A!A!!!!!!"!/]!]&gt;1N/T%!!!!"$52-6#"4&gt;'&amp;U:3ZD&gt;'Q!W5!7!!Q)2%R5)&amp;.54V!22%R5)%2336:&amp;)%:82#"12&amp;!.2%R5)%2336:&amp;)%:82!V%4&amp;1A2&amp;**6E5A1F&gt;%&amp;U2-6#"%5EF723"#6U1A5%21)%.-25&amp;/%52-6#"%5EF723"#6U1A5%21$52-6#")4UR%)%*"1UM25V9N.S"%4&amp;1A2F&gt;%)&amp;2365535V9N.S"%4&amp;1A2F&gt;%)%:"4&amp;.&amp;%6.7,4AA2%R5)%*82#"55F6&amp;%F.7,4AA2%R5)%*82#"'15R421F%4&amp;1A5E64261!!!F%4&amp;1A5V2"6%5!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Pumps State.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Controls/Pumps State.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$$PQ!!!"A!A!!!!!!"!+U!]&gt;@!00U!!!!"$V"V&lt;8"T)&amp;.U982F,G.U&lt;!#61"9!#QJ%&lt;S"/&lt;X2I;7ZH#F*V&lt;C"1&gt;7VQ)$%+5H6O)&amp;"V&lt;8!A-AJ3&gt;7YA5(6N=#!T#F*V&lt;C"1&gt;7VQ)$1+5H6O)&amp;"V&lt;8!A.1N4&gt;'^Q)&amp;"V&lt;8!A-1N4&gt;'^Q)&amp;"V&lt;8!A-AN4&gt;'^Q)&amp;"V&lt;8!A-QN4&gt;'^Q)&amp;"V&lt;8!A.!N4&gt;'^Q)&amp;"V&lt;8!A.1!,5(6N=(-A5X2B&gt;'5!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="IT ENG" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -265,6 +250,24 @@
 		<Property Name="typedefPath3" Type="PathRel">../../Controls/Settings.ctl</Property>
 		<Property Name="typedefPath4" Type="PathRel">../../Controls/Timeouts.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$N[1!!!"A!A!!!!!!&amp;!!N!#A!&amp;5WRP='5!$U!+!!F*&lt;H2F=G.F=(1!.Q$R!!!!!!!!!!%35W6O=W^S)%.B&lt;&amp;"B=G%O9X2M!"R!5!!#!!!!!1R#&lt;W2Z)%.B&lt;&amp;"B=G%!!$5!]1!!!!!!!!!"%F.F&lt;H.P=C"$97R198*B,G.U&lt;!!;1&amp;!!!A!!!!%+66-A1W&amp;M5'&amp;S91!!-Q$R!!!!!!!!!!%/5'&amp;S97VF&gt;'6S=SZD&gt;'Q!(%"1!!)!!A!$$5.04E:*2V63162*4UY!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Pumps State" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Pumps State.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Controls/Pumps State.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$$PQ!!!"A!A!!!!!!"!+U!]&gt;@!00U!!!!"$V"V&lt;8"T)&amp;.U982F,G.U&lt;!#61"9!#QJ%&lt;S"/&lt;X2I;7ZH#F*V&lt;C"1&gt;7VQ)$%+5H6O)&amp;"V&lt;8!A-AJ3&gt;7YA5(6N=#!T#F*V&lt;C"1&gt;7VQ)$1+5H6O)&amp;"V&lt;8!A.1N4&gt;'^Q)&amp;"V&lt;8!A-1N4&gt;'^Q)&amp;"V&lt;8!A-AN4&gt;'^Q)&amp;"V&lt;8!A-QN4&gt;'^Q)&amp;"V&lt;8!A.!N4&gt;'^Q)&amp;"V&lt;8!A.1!,5(6N=(-A5X2B&gt;'5!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Run All Steps" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
