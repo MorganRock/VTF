@@ -262,6 +262,7 @@
 			<Item Name="Machine State.ctl" Type="VI" URL="../Controls/Machine State.ctl"/>
 			<Item Name="OT State.ctl" Type="VI" URL="../Controls/OT State.ctl"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
+			<Item Name="Pumps Command.ctl" Type="VI" URL="../Controls/Pumps Command.ctl"/>
 			<Item Name="Pumps State.ctl" Type="VI" URL="../Controls/Pumps State.ctl"/>
 			<Item Name="Sensor CalPara.ctl" Type="VI" URL="../Controls/Sensor CalPara.ctl"/>
 			<Item Name="Settings.ctl" Type="VI" URL="../Controls/Settings.ctl"/>
@@ -658,6 +659,9 @@ DirectoryIndex index.htm
 			<Item Name="Machine State.ctl" Type="VI" URL="../Controls/Machine State.ctl"/>
 			<Item Name="OT State.ctl" Type="VI" URL="../Controls/OT State.ctl"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
+			<Item Name="Pumps Command.ctl" Type="VI" URL="../Controls/Pumps Command.ctl"/>
+			<Item Name="Pumps List.ctl" Type="VI" URL="../Controls/Pumps List.ctl"/>
+			<Item Name="Pumps State Change.ctl" Type="VI" URL="../Controls/Pumps State Change.ctl"/>
 			<Item Name="Pumps State.ctl" Type="VI" URL="../Controls/Pumps State.ctl"/>
 			<Item Name="RT Loop - UI Communication State.ctl" Type="VI" URL="../Controls/RT Loop - UI Communication State.ctl"/>
 			<Item Name="Sensor CalPara.ctl" Type="VI" URL="../Controls/Sensor CalPara.ctl"/>
@@ -692,6 +696,7 @@ DirectoryIndex index.htm
 			<Item Name="RT Loop - Watchdog.vi" Type="VI" URL="../RT Loops/RT Loop - Watchdog.vi"/>
 			<Item Name="RT Loop - Config Calibration.vi" Type="VI" URL="../RT Loops/RT Loop - Config Calibration.vi"/>
 			<Item Name="RT Loop - Pumps.vi" Type="VI" URL="../RT Loops/RT Loop - Pumps.vi"/>
+			<Item Name="RT Loop - DI Change.vi" Type="VI" URL="../RT Loops/RT Loop - DI Change.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -4448,6 +4453,7 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Pumps State Change.vi" Type="VI" URL="../Support/Pumps State Change.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -4481,6 +4487,9 @@ DirectoryIndex index.htm
 				<Item Name="Watchdog Add Restart RTE Action.vi" Type="VI" URL="/&lt;vilib&gt;/RTwatchdog.llb/Watchdog Add Restart RTE Action.vi"/>
 			</Item>
 			<Item Name="niwd4c.dll" Type="Document" URL="niwd4c.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
