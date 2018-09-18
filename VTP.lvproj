@@ -241,6 +241,8 @@
 			<Item Name="Run Cooling Motor.ctl" Type="VI" URL="../Buttons/Run Cooling Motor.ctl"/>
 			<Item Name="Run Process.ctl" Type="VI" URL="../Buttons/Run Process.ctl"/>
 			<Item Name="Secondary Motor.ctl" Type="VI" URL="../Buttons/Secondary Motor.ctl"/>
+			<Item Name="Switch.ctl" Type="VI" URL="../Buttons/Switch.ctl"/>
+			<Item Name="Check Box.ctl" Type="VI" URL="../Buttons/Check Box.ctl"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
