@@ -717,6 +717,7 @@ DirectoryIndex index.htm
 			<Item Name="RT - Send Message to UI.vi" Type="VI" URL="../Support/RT - Send Message to UI.vi"/>
 			<Item Name="RT - Write Config.vi" Type="VI" URL="../Support/RT - Write Config.vi"/>
 			<Item Name="Status Message.vi" Type="VI" URL="../Support/Status Message.vi"/>
+			<Item Name="RT - Pumps State Change.vi" Type="VI" URL="../Support/RT - Pumps State Change.vi"/>
 		</Item>
 		<Item Name="Deterministic Loop Variables.lvlib" Type="Library" URL="../Deterministic Loop Variables/Deterministic Loop Variables.lvlib"/>
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables/Shared Variables.lvlib"/>
@@ -4455,7 +4456,6 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Pumps State Change.vi" Type="VI" URL="../Support/Pumps State Change.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
