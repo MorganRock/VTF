@@ -55,6 +55,7 @@
 	<Property Name="varPersistentID:{3BE3E252-A849-441B-BCC3-C4800EE3732A}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO10</Property>
 	<Property Name="varPersistentID:{3C7406C0-5772-41C3-B9C1-7A4B3D96C657}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/07SLCGreen2</Property>
 	<Property Name="varPersistentID:{3C8DBE15-5A68-4D98-983A-F69C79B3C181}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/01CVFDSpeed</Property>
+	<Property Name="varPersistentID:{3CFD711F-A04D-478C-A3D2-A830350F446F}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Propotional State</Property>
 	<Property Name="varPersistentID:{3EB06C3F-F376-4396-9D5F-B81B07DE3A18}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/11EVCPres</Property>
 	<Property Name="varPersistentID:{40433E7D-ABC8-47C5-83CC-5E2EFF6FD883}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/AI13</Property>
 	<Property Name="varPersistentID:{450241CD-2B3E-4991-B264-066F02CC81DB}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/20CPumpACFault</Property>
@@ -264,6 +265,7 @@
 			<Item Name="Machine State.ctl" Type="VI" URL="../Controls/Machine State.ctl"/>
 			<Item Name="OT State.ctl" Type="VI" URL="../Controls/OT State.ctl"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
+			<Item Name="Propotional Value.ctl" Type="VI" URL="../Controls/Propotional Value.ctl"/>
 			<Item Name="Pumps Command.ctl" Type="VI" URL="../Controls/Pumps Command.ctl"/>
 			<Item Name="Pumps State.ctl" Type="VI" URL="../Controls/Pumps State.ctl"/>
 			<Item Name="Sensor CalPara.ctl" Type="VI" URL="../Controls/Sensor CalPara.ctl"/>
@@ -661,6 +663,8 @@ DirectoryIndex index.htm
 			<Item Name="Machine State.ctl" Type="VI" URL="../Controls/Machine State.ctl"/>
 			<Item Name="OT State.ctl" Type="VI" URL="../Controls/OT State.ctl"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Controls/Parameters.ctl"/>
+			<Item Name="Propotional State.ctl" Type="VI" URL="../Controls/Propotional State.ctl"/>
+			<Item Name="Propotional Value.ctl" Type="VI" URL="../Controls/Propotional Value.ctl"/>
 			<Item Name="Pumps Command.ctl" Type="VI" URL="../Controls/Pumps Command.ctl"/>
 			<Item Name="Pumps List.ctl" Type="VI" URL="../Controls/Pumps List.ctl"/>
 			<Item Name="Pumps State Change.ctl" Type="VI" URL="../Controls/Pumps State Change.ctl"/>
@@ -699,6 +703,7 @@ DirectoryIndex index.htm
 			<Item Name="RT Loop - Config Calibration.vi" Type="VI" URL="../RT Loops/RT Loop - Config Calibration.vi"/>
 			<Item Name="RT Loop - Pumps.vi" Type="VI" URL="../RT Loops/RT Loop - Pumps.vi"/>
 			<Item Name="RT Loop - DI Change.vi" Type="VI" URL="../RT Loops/RT Loop - DI Change.vi"/>
+			<Item Name="RT Loop - Propotional Update.vi" Type="VI" URL="../RT Loops/RT Loop - Propotional Update.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -4514,7 +4519,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17F5AF77-A687-4994-AAA4-46678629FEA8}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">72</Property>
+				<Property Name="Bld_version.build" Type="Int">73</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

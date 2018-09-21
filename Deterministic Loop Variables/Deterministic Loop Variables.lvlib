@@ -251,6 +251,24 @@
 		<Property Name="typedefPath4" Type="PathRel">../../Controls/Timeouts.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$N[1!!!"A!A!!!!!!&amp;!!N!#A!&amp;5WRP='5!$U!+!!F*&lt;H2F=G.F=(1!.Q$R!!!!!!!!!!%35W6O=W^S)%.B&lt;&amp;"B=G%O9X2M!"R!5!!#!!!!!1R#&lt;W2Z)%.B&lt;&amp;"B=G%!!$5!]1!!!!!!!!!"%F.F&lt;H.P=C"$97R198*B,G.U&lt;!!;1&amp;!!!A!!!!%+66-A1W&amp;M5'&amp;S91!!-Q$R!!!!!!!!!!%/5'&amp;S97VF&gt;'6S=SZD&gt;'Q!(%"1!!)!!A!$$5.04E:*2V63162*4UY!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Propotional State" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Propotional State.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Controls/Propotional State.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#RL1!!!"A!A!!!!!!"!*M!]1!!!!!!!!!"&amp;6"S&lt;X"P&gt;'FP&lt;G&amp;M)&amp;.U982F,G.U&lt;!"^1"9!"AV*&lt;GFU;7RJ?G5A17RM#E2P)%ZP&gt;'BJ&lt;G=015)A6G&amp;M&gt;G5A68"E982F$V2$)&amp;:B&lt;(:F)&amp;6Q:'&amp;U:2*#&lt;'6F:#"797RW:3"6='2B&gt;'546(*J='RF?#"1&gt;7VQ)&amp;6Q:'&amp;U:1!25(*P='^U;7^O97QA5X2B&gt;'5!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Pumps State" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
