@@ -2,7 +2,7 @@
 192.168.1.2 = "192.168.1.2"
 
 [My Computer]
-My Computer = "34.2.12.185"
+My Computer = "192.168.1.100"
 
 [Networked Computer/Device]
 Networked Computer/Device = "192.168.1.45"
