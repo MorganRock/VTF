@@ -1,11 +1,17 @@
 [192.168.1.2]
 192.168.1.2 = "192.168.1.2"
 
+[192.168.1.4]
+192.168.1.4 = "192.168.1.4"
+
 [My Computer]
 My Computer = "192.168.1.100"
 
 [Networked Computer/Device]
 Networked Computer/Device = "192.168.1.45"
+
+[NI-cRIO-9047-01D718CA]
+NI-cRIO-9047-01D718CA = "172.22.11.2"
 
 [RT CompactRIO Target]
 RT CompactRIO Target = "0.0.0.0"
