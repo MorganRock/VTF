@@ -248,6 +248,8 @@
 			<Item Name="Secondary Motor.ctl" Type="VI" URL="../Buttons/Secondary Motor.ctl"/>
 			<Item Name="Switch.ctl" Type="VI" URL="../Buttons/Switch.ctl"/>
 			<Item Name="Check Box.ctl" Type="VI" URL="../Buttons/Check Box.ctl"/>
+			<Item Name="Add.ctl" Type="VI" URL="../Buttons/Add.ctl"/>
+			<Item Name="Sub.ctl" Type="VI" URL="../Buttons/Sub.ctl"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -571,7 +573,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
 		<Property Name="host.TargetOSID" Type="UInt">19</Property>
-		<Property Name="host.TargetUIEnabled" Type="Bool">false</Property>
+		<Property Name="host.TargetUIEnabled" Type="Bool">true</Property>
 		<Property Name="mathScriptPath" Type="Str">C:\Users\H169081\Documents\LabVIEW Data</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
@@ -589,10 +591,10 @@
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -726,6 +728,7 @@ AddOutputFilter chunkFilter
 			<Item Name="RT - Write Config.vi" Type="VI" URL="../Support/RT - Write Config.vi"/>
 			<Item Name="Status Message.vi" Type="VI" URL="../Support/Status Message.vi"/>
 			<Item Name="RT - Pumps State Change.vi" Type="VI" URL="../Support/RT - Pumps State Change.vi"/>
+			<Item Name="RT - Count2Speed.vi" Type="VI" URL="../Support/RT - Count2Speed.vi"/>
 		</Item>
 		<Item Name="Deterministic Loop Variables.lvlib" Type="Library" URL="../Deterministic Loop Variables/Deterministic Loop Variables.lvlib"/>
 		<Item Name="Deterministic TP SVs.lvlib" Type="Library" URL="../Deterministic Loop Variables/Deterministic TP SVs.lvlib"/>
@@ -4893,7 +4896,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="RT - Count2Speed.vi" Type="VI" URL="../Support/RT - Count2Speed.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -4952,6 +4954,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{261E75D5-7F7F-412D-AB36-9EE6A1A79ACF}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
