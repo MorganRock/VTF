@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{00168290-F029-4EB0-ADA1-8D58098942F1}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/00EStop</Property>
+	<Property Name="varPersistentID:{00168290-F029-4EB0-ADA1-8D58098942F1}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/00VTFEStop</Property>
 	<Property Name="varPersistentID:{01323264-0831-49B9-9428-C6371E870844}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/03DumpLeakByTank</Property>
 	<Property Name="varPersistentID:{062D95B5-336C-4DE0-BF65-5DD39D1FBCB6}" Type="Ref">/192.168.1.2/Deterministic TP SVs.lvlib/TP RPM</Property>
 	<Property Name="varPersistentID:{0894BFB1-920B-419C-B191-18E80814C739}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO7</Property>
@@ -10,46 +10,54 @@
 	<Property Name="varPersistentID:{0A68B96E-31A5-481C-B9CB-1251229F9475}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI27</Property>
 	<Property Name="varPersistentID:{0CBDDD30-0395-4B84-B2AC-F707DFF67461}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI12</Property>
 	<Property Name="varPersistentID:{0D1CB87E-9FA8-47BE-866E-285F71D418F9}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/15Pend2SlowCW</Property>
-	<Property Name="varPersistentID:{10AA7ACC-868D-4ED9-85CD-BB82B6B0553E}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/AI12</Property>
+	<Property Name="varPersistentID:{1022DFC5-AF08-4C99-94A1-39F114370954}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/12AirManVal7a</Property>
+	<Property Name="varPersistentID:{10AA7ACC-868D-4ED9-85CD-BB82B6B0553E}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/12BBVPos</Property>
 	<Property Name="varPersistentID:{10E75033-4E44-47C8-AA7D-0AAAE624AEEC}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/04CWRotPres</Property>
 	<Property Name="varPersistentID:{1288853B-AEF8-4895-8AC8-0F0B41A42637}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/03LC/00TankLC1</Property>
-	<Property Name="varPersistentID:{157B115D-6526-409D-A39E-1B5A49FFC87C}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/17UpLocalSwitch</Property>
+	<Property Name="varPersistentID:{157B115D-6526-409D-A39E-1B5A49FFC87C}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/17UpLocalSW</Property>
 	<Property Name="varPersistentID:{15A9F94D-6CE3-4619-84FE-64563976F5F6}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/02HEncoder0</Property>
+	<Property Name="varPersistentID:{1606C0AE-AF8B-48C6-B185-352E06928D79}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI14</Property>
 	<Property Name="varPersistentID:{171BD04E-4564-474D-BAB2-B0964ADAE447}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/05SLCRed2</Property>
-	<Property Name="varPersistentID:{17378A3A-DC3A-43ED-B877-C31DAC6973C5}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/06StopCoolFan</Property>
+	<Property Name="varPersistentID:{17378A3A-DC3A-43ED-B877-C31DAC6973C5}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/DO6</Property>
+	<Property Name="varPersistentID:{1797898B-08A8-401F-80BE-02FF489AA34B}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/03OpenBPValve</Property>
 	<Property Name="varPersistentID:{17FAA4BF-E4CE-4EF1-9C97-2B7171BDA5EC}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/DO7</Property>
 	<Property Name="varPersistentID:{180067A8-7B2B-4A61-AA84-775120155760}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/14Pend2FastCCW</Property>
 	<Property Name="varPersistentID:{1841749F-3964-4D4E-9992-542970617626}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO5</Property>
 	<Property Name="varPersistentID:{1860CEE1-98A7-4A11-B7A7-964268B59F56}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/09Pend2FastUp</Property>
+	<Property Name="varPersistentID:{1AD1BB97-A866-4C45-9CA2-A94D8B701B1D}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/04SelectHWater</Property>
 	<Property Name="varPersistentID:{1D1D9DA4-7587-4EB8-8308-B771BFB22901}" Type="Ref">/192.168.1.2/EtherCAT/TP/User-Defined Variables/RotaryMotoVelocityCounts</Property>
 	<Property Name="varPersistentID:{1E43B8E4-A390-478C-AD73-78F540BF3EF5}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/03RetractCylPres</Property>
+	<Property Name="varPersistentID:{1E75CCF8-8268-4D9F-88DB-BEADDA55E1DA}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI7</Property>
 	<Property Name="varPersistentID:{1FC4EC05-09DF-45E3-A039-914AB689DCF4}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI23</Property>
 	<Property Name="varPersistentID:{23819386-E31E-4B0C-B3DE-4C81EF4A383D}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Control Mode</Property>
 	<Property Name="varPersistentID:{24991885-9E84-4E59-A272-2CA2F2AAC768}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI25</Property>
-	<Property Name="varPersistentID:{249C4002-319F-4BCC-8507-0EE94E5CE5EA}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/20CPumpACFault</Property>
+	<Property Name="varPersistentID:{249C4002-319F-4BCC-8507-0EE94E5CE5EA}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/20TPumpACFault</Property>
 	<Property Name="varPersistentID:{2743BF93-0714-48F2-AA2C-8FA1E5A2BD9F}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Valve Status</Property>
-	<Property Name="varPersistentID:{2809FC8F-7807-4DB4-9BF8-38FB678DEE9F}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/AO3</Property>
+	<Property Name="varPersistentID:{2809FC8F-7807-4DB4-9BF8-38FB678DEE9F}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/03ABVPos</Property>
 	<Property Name="varPersistentID:{288F42C3-8528-467B-8F46-F67A8531BA0D}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/05HEncoderINV2</Property>
 	<Property Name="varPersistentID:{29896ED7-72D7-40DA-B5DA-897F8C853955}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/VTF Sensors</Property>
 	<Property Name="varPersistentID:{2A8333F4-11E9-496E-A487-886A029B3177}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO10</Property>
-	<Property Name="varPersistentID:{2B064118-2A99-49B2-9407-548393B320F3}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/21CylOELimSwitch</Property>
+	<Property Name="varPersistentID:{2B064118-2A99-49B2-9407-548393B320F3}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/21CylOELimitSW</Property>
 	<Property Name="varPersistentID:{2B7E5AF9-224E-46AA-A8E3-B1F5678E4C0C}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/00CloseESDValve</Property>
 	<Property Name="varPersistentID:{2B80DBE7-0E00-47F4-8202-18495190E3DF}" Type="Ref">/192.168.1.2/EtherCAT/TP/03LC/00RotTrqLC</Property>
 	<Property Name="varPersistentID:{2BDF4FFB-1698-4525-AD6A-AF858F0A075A}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/05TripIndMtr1</Property>
 	<Property Name="varPersistentID:{2C0CE826-9040-4037-885B-B6F29E3CDDFE}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/AI15</Property>
-	<Property Name="varPersistentID:{2C528075-0294-48DF-944F-B6418C5E5FAE}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/01AMBInTemp</Property>
+	<Property Name="varPersistentID:{2C528075-0294-48DF-944F-B6418C5E5FAE}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/01PitAmbTemp</Property>
 	<Property Name="varPersistentID:{2CB3195B-BD1D-4C62-880F-7184C63BC73C}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/12Pend2SlowDown</Property>
 	<Property Name="varPersistentID:{2F658756-F6A6-4093-BDA6-48F07EBE0F13}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI13</Property>
+	<Property Name="varPersistentID:{2FB87B2E-246D-4ED8-A32C-66E555F6E255}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI4</Property>
 	<Property Name="varPersistentID:{32180A0C-5488-4061-9307-22DA0A127BC6}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/BMB Sensors</Property>
 	<Property Name="varPersistentID:{331CC71C-C9DE-4215-9D11-9628B005C86C}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/05Pend1FastCW</Property>
 	<Property Name="varPersistentID:{33615695-FEF9-4886-AF89-9AFB5AB81175}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/AI15</Property>
 	<Property Name="varPersistentID:{3593B44C-0433-402C-8545-3663192F4EFA}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/02Pend1FastDown</Property>
-	<Property Name="varPersistentID:{37CD48B4-2231-45EF-8B29-49798367F498}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/04WINLTemp</Property>
+	<Property Name="varPersistentID:{37CD48B4-2231-45EF-8B29-49798367F498}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/04WInletTemp</Property>
 	<Property Name="varPersistentID:{3AB12037-3FE4-4175-978A-2F90ED14E6A2}" Type="Ref">/192.168.1.2/EtherCAT/TP/03LC/AI3</Property>
 	<Property Name="varPersistentID:{3B3E25DC-C659-4321-8FC3-0ECDBE02FEF5}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/08Pend1SlowCCW</Property>
 	<Property Name="varPersistentID:{3B61444D-9473-4DF3-93B5-EA0B9E4EA9FA}" Type="Ref">/192.168.1.2/EtherCAT/TP/01AI/01TiltSensorY</Property>
 	<Property Name="varPersistentID:{3F3AAFB3-CF79-49EA-90E8-24ABDB9C7103}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/02RunMotor3</Property>
+	<Property Name="varPersistentID:{3F47916F-992F-4385-B321-6F9BE9E4709D}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/08AirManVal5a</Property>
 	<Property Name="varPersistentID:{3FEDA22B-069E-467D-929B-997A71F356C5}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO3</Property>
+	<Property Name="varPersistentID:{40881D10-3F12-4759-B4A2-C882AC995F76}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI3</Property>
 	<Property Name="varPersistentID:{4275827C-4426-44CD-AE81-B624717EBE53}" Type="Ref">/192.168.1.2/EtherCAT/HPU/03AO/AO3</Property>
 	<Property Name="varPersistentID:{433980F3-7D1A-4FF1-AEA1-D8A5CEBA852C}" Type="Ref">/192.168.1.2/EtherCAT/HPU/02AO/03DirSpdPump4</Property>
 	<Property Name="varPersistentID:{4504D01D-6A67-48E5-B293-E793009A167A}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/07BRGTemp</Property>
@@ -63,9 +71,12 @@
 	<Property Name="varPersistentID:{518FFE0C-4DC3-438F-8E00-50233B7F174B}" Type="Ref">/192.168.1.2/EtherCAT/HPU/03AO/AO2</Property>
 	<Property Name="varPersistentID:{51FD565F-487F-497B-8B02-9B105FCFFD35}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/IT State</Property>
 	<Property Name="varPersistentID:{52DA2762-8982-4B19-83A7-684CAD38CF9E}" Type="Ref">/192.168.1.2/Deterministic TP SVs.lvlib/TP Pos</Property>
+	<Property Name="varPersistentID:{53439DCC-114D-4D70-A774-B8CFA8191DBF}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/13AirManVal7b</Property>
 	<Property Name="varPersistentID:{53D27BE5-8A3D-4DC1-93F6-B38B4FADE3BD}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/10AtSpeedMtr3</Property>
+	<Property Name="varPersistentID:{54A6F713-7E8D-42FF-B878-ED89415C7AB5}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI0</Property>
 	<Property Name="varPersistentID:{54F49F3C-3F30-454E-8273-398DA7579A32}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/DLT State</Property>
-	<Property Name="varPersistentID:{56357178-CD6A-4C25-99DA-9C984ECA2B9A}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/24BPDCloseSwitch</Property>
+	<Property Name="varPersistentID:{56357178-CD6A-4C25-99DA-9C984ECA2B9A}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/24BPDCloseSW</Property>
+	<Property Name="varPersistentID:{569DB2C5-708C-4C31-BADC-A13EB641F6F4}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/05SelectCWater</Property>
 	<Property Name="varPersistentID:{57AA7354-83DB-4F73-99E4-E498A794A451}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/03LC/01TankLC2</Property>
 	<Property Name="varPersistentID:{57CAB4F8-91EF-44CC-AE77-D64DB3611CE4}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO8</Property>
 	<Property Name="varPersistentID:{585D4375-8122-4049-9207-9A327C08F917}" Type="Ref">/192.168.1.2/EtherCAT/HPU/06DO/00EStop</Property>
@@ -77,30 +88,33 @@
 	<Property Name="varPersistentID:{5FFB042F-C625-409A-8FF8-C1B48103C435}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/01RMCompPres</Property>
 	<Property Name="varPersistentID:{6011227A-9A2B-4C33-83C6-8D9ECD99DD17}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI21</Property>
 	<Property Name="varPersistentID:{60E7E5E6-56D4-482B-AE5B-19C60CFF239A}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/OT State</Property>
-	<Property Name="varPersistentID:{64C1356A-8B92-44F9-9272-4C17CE728398}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/00EStop</Property>
+	<Property Name="varPersistentID:{64C1356A-8B92-44F9-9272-4C17CE728398}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/00HPUEStop</Property>
 	<Property Name="varPersistentID:{659FC69D-1BFE-47EE-91AB-CBCBB5AFAE98}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/AI11</Property>
 	<Property Name="varPersistentID:{666A35A9-4F0B-4839-B675-A805559DAACB}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/15LOLSDSkidB</Property>
 	<Property Name="varPersistentID:{66FA4084-C049-4AE5-9FC9-F05DC18B2857}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/00TJMTemp</Property>
 	<Property Name="varPersistentID:{6774C08A-4392-45E5-BB67-D0BD21DEDDC8}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/04SLCGreen1</Property>
 	<Property Name="varPersistentID:{6857C039-6809-4533-89AF-E6BBDF628ACF}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/04RunMotor5</Property>
 	<Property Name="varPersistentID:{686834FF-99DB-4D67-B48C-B1EF954ECCF4}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/AI14</Property>
+	<Property Name="varPersistentID:{68C0F6C0-43EC-4AF7-8FBB-1B6845B90DFF}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/06EngageLocks</Property>
 	<Property Name="varPersistentID:{698B4F0A-6595-4014-AE46-B9A29641B983}" Type="Ref">/192.168.1.2/EtherCAT/HPU/06DO/02CylMMode</Property>
+	<Property Name="varPersistentID:{6A8C8604-07B7-4D1F-9D2B-20C9A0A6C0B2}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI12</Property>
 	<Property Name="varPersistentID:{6B424E4D-41DC-4895-9955-0B84C2B25F3B}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/16Pend2SlowCCW</Property>
 	<Property Name="varPersistentID:{6BDD92ED-3713-4CB9-A2CB-C74864D69014}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/10Pend2FastDown</Property>
 	<Property Name="varPersistentID:{6C3DC662-4676-4386-9401-B1D75870F20C}" Type="Ref">/192.168.1.2/EtherCAT/TP/02LC/00TableLC1</Property>
 	<Property Name="varPersistentID:{6C5F4305-C785-44A1-A9FF-3393DE84840E}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI15</Property>
-	<Property Name="varPersistentID:{6C6114AF-4231-44AC-B72D-21F8D2BF5232}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/06CPumpSpeed</Property>
+	<Property Name="varPersistentID:{6C6114AF-4231-44AC-B72D-21F8D2BF5232}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/06TPumpSpeed</Property>
 	<Property Name="varPersistentID:{6E35A089-087B-4601-9B64-4C88A75901FD}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/13Pend2FastCW</Property>
 	<Property Name="varPersistentID:{6E57519C-351F-45BF-8DB0-514D36494BCA}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Leak Detection</Property>
 	<Property Name="varPersistentID:{6EFAF091-26F2-4E91-95E3-F97A65FB808A}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO15</Property>
 	<Property Name="varPersistentID:{6F0194FD-6487-4851-9C63-46DA49031AA7}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO2</Property>
 	<Property Name="varPersistentID:{6FC07D54-B0D1-4799-9A23-16D1F68CF472}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/02ExtCylPres</Property>
-	<Property Name="varPersistentID:{7052B10C-924C-4572-BDEB-E325DC1FE6D3}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/10AMPres</Property>
+	<Property Name="varPersistentID:{7052B10C-924C-4572-BDEB-E325DC1FE6D3}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/10AccMPres</Property>
 	<Property Name="varPersistentID:{70E71001-E151-4C69-9613-62B34F493ED1}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/03WWTemp</Property>
 	<Property Name="varPersistentID:{72A2AAEB-2941-445D-9F96-FEB69A71BE43}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/03LC/AI3</Property>
 	<Property Name="varPersistentID:{72B5E6B0-0A97-4663-AFF3-097D913CD801}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/03Pend1SlowUp</Property>
 	<Property Name="varPersistentID:{7476BB0B-9346-48F9-9474-D1B7D7110F3F}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/08OilTempB</Property>
-	<Property Name="varPersistentID:{76EAD3B2-0B0E-4360-8965-9E5D416A4EFF}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/09AMBOutTemp</Property>
+	<Property Name="varPersistentID:{7698C53D-72D1-489F-B7C7-5970775AE0AF}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI11</Property>
+	<Property Name="varPersistentID:{76EAD3B2-0B0E-4360-8965-9E5D416A4EFF}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/09HPUAmbTemp</Property>
 	<Property Name="varPersistentID:{77EA88C1-A24C-429B-AFE5-B1D7ED313BA2}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/01TripIndMtr5</Property>
 	<Property Name="varPersistentID:{78315A38-8622-4024-8E85-CD2EE9C797FE}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/IT ENG</Property>
 	<Property Name="varPersistentID:{78749C34-9DD8-4BE8-96E4-B54E0A45AAAD}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/30AccESDValOpen</Property>
@@ -113,61 +127,72 @@
 	<Property Name="varPersistentID:{837A1FD1-00DD-4D40-9032-532CABA72E04}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO6</Property>
 	<Property Name="varPersistentID:{83B7A7A1-D6C9-4AF2-8A5C-0CB6F4154381}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/06Pend1FastCCW</Property>
 	<Property Name="varPersistentID:{8400E6E7-45B7-46C1-B694-5E7843ADC557}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/TWTT State</Property>
+	<Property Name="varPersistentID:{8465F49C-145A-45BE-9430-8DB1CC8A1BE6}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI2</Property>
+	<Property Name="varPersistentID:{87D4DC0B-2DD2-4EFB-A504-15FCD84F22B5}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI5</Property>
 	<Property Name="varPersistentID:{87E3A184-D185-4029-B887-5387668DC06A}" Type="Ref">/192.168.1.2/EtherCAT/HPU/06DO/03RunCoolFanA</Property>
 	<Property Name="varPersistentID:{880161CA-5DC5-460B-854B-B971990878FD}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/13LOLSDSkidA</Property>
 	<Property Name="varPersistentID:{883D75F3-D0CB-429B-8211-50CF8D36D11F}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Auto Mode</Property>
 	<Property Name="varPersistentID:{884F322B-36CC-44B1-A11B-6BA9FB543027}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO4</Property>
 	<Property Name="varPersistentID:{885548EB-B088-4EB8-8C3F-E75CD7F9AE08}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI10</Property>
 	<Property Name="varPersistentID:{887758F0-BBFF-4A61-8403-EEC626BDD03D}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/04AtSpeedMtr2</Property>
+	<Property Name="varPersistentID:{89B996C1-500F-42DD-887B-96FA6DF62858}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI8</Property>
 	<Property Name="varPersistentID:{8ADA2934-02F5-4919-BA1C-5B78ACEF944D}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI28</Property>
-	<Property Name="varPersistentID:{8CAE2F0E-F6A9-4CD8-B581-3761A5887F8D}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/27SPinEngaged</Property>
+	<Property Name="varPersistentID:{8CAE2F0E-F6A9-4CD8-B581-3761A5887F8D}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/27LocksEng</Property>
 	<Property Name="varPersistentID:{8CBC7412-008F-4DE8-B8A6-8DB6BDB2F995}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/00CylCompPres</Property>
 	<Property Name="varPersistentID:{8CD36031-922D-4304-9C5B-58F4DBB190E2}" Type="Ref">/192.168.1.2/EtherCAT/HPU/03AO/AO1</Property>
 	<Property Name="varPersistentID:{8D804633-54E7-423E-8D6A-EB1F379B1381}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO9</Property>
 	<Property Name="varPersistentID:{92A18058-1894-4370-ACF6-1EFFC27555D3}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/01Pend1FastUp</Property>
-	<Property Name="varPersistentID:{9377A625-84CF-496F-AC5E-449FEF7D4F6A}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/AI13</Property>
+	<Property Name="varPersistentID:{9377A625-84CF-496F-AC5E-449FEF7D4F6A}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/13ABVPos</Property>
 	<Property Name="varPersistentID:{964B8487-5DB8-41C6-98D2-F2517EB68D69}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/All RT Loop Stop</Property>
 	<Property Name="varPersistentID:{967F0FEC-B804-41A1-B36C-EF09D1A27E49}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/12HTSDSkidA</Property>
 	<Property Name="varPersistentID:{96A17DC0-070A-411C-AC5D-ADD4A0D347F3}" Type="Ref">/192.168.1.2/Shared Variables.lvlib/Contiguous Memory</Property>
 	<Property Name="varPersistentID:{97899F3E-4E0B-4623-ADD5-4586A05BBCF1}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO13</Property>
 	<Property Name="varPersistentID:{97AC1888-F46E-48A1-99D7-9E027A3EDCAA}" Type="Ref">/192.168.1.2/Shared Variables.lvlib/VTF Sensors</Property>
+	<Property Name="varPersistentID:{987E36D4-680C-4377-A4E3-221805F121C4}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/15AirManVal8b</Property>
 	<Property Name="varPersistentID:{98EB2157-EFF1-4CE4-892C-0024A28FDE21}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/06HEncoderStat</Property>
 	<Property Name="varPersistentID:{9987FBE2-F2B1-4BA9-BC3D-A077732FA690}" Type="Ref">/192.168.1.2/EtherCAT/TP/01AI/00TiltSensorX</Property>
 	<Property Name="varPersistentID:{9A7914B4-EB4C-4739-969A-E67B1E876C79}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/07HydRsvrLevelB</Property>
 	<Property Name="varPersistentID:{9BBF3266-0590-4159-A483-875F4889D03B}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/06AtSpeedMtr1</Property>
 	<Property Name="varPersistentID:{9CA15581-E366-4585-8E1E-843BFAF5B527}" Type="Ref">/192.168.1.2/EtherCAT/HPU/02AO/00DirSpdPump1</Property>
 	<Property Name="varPersistentID:{9CA3E25D-6806-48A1-9AA6-471314A35FA3}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/06SLCAmber2</Property>
+	<Property Name="varPersistentID:{9CA52EE5-572B-42A1-A11C-1170809F2813}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/11BDVAirOff</Property>
 	<Property Name="varPersistentID:{9CE1D408-07E2-4490-8A4B-9EFB5308F712}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/04Pend1SlowDown</Property>
 	<Property Name="varPersistentID:{9EADCA6F-5897-4B6F-ABEA-CB14E16C3FF4}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/ConfigCAL</Property>
 	<Property Name="varPersistentID:{9F4F4EC2-4ACD-4A07-9A76-0A6DC69A5258}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/08AtSpeedMtr4</Property>
-	<Property Name="varPersistentID:{A0CBC92C-BD94-4E43-B220-56C5551CB9C8}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/DO5</Property>
+	<Property Name="varPersistentID:{A0CBC92C-BD94-4E43-B220-56C5551CB9C8}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/05StackLightW2</Property>
 	<Property Name="varPersistentID:{A2660D7A-0FF9-4590-9BA3-68861995FFC0}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/29LubePumpRun</Property>
 	<Property Name="varPersistentID:{A2963D0C-83EA-46FE-8CD9-2B3798681EDD}" Type="Ref">/192.168.1.2/Shared Variables.lvlib/CPU Usage</Property>
+	<Property Name="varPersistentID:{A4650E21-683F-45D8-87B7-FAF33ED00B43}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI6</Property>
 	<Property Name="varPersistentID:{A5FAAEF8-C619-4023-9D0A-B3CE03E34E59}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/AI12</Property>
 	<Property Name="varPersistentID:{A6970189-4482-451F-90C8-1F6478EF4CF7}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI31</Property>
 	<Property Name="varPersistentID:{A6B0A8DE-F383-459B-B90A-1D210EB17A86}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/09TripIndMtr3</Property>
-	<Property Name="varPersistentID:{A71D7B1C-392C-4274-9B4D-E2CA889236F8}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/01CVFDSpeed</Property>
-	<Property Name="varPersistentID:{A8043DB2-FEC1-4CBD-BEC6-BD27480B268F}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/05RunCoolFan</Property>
-	<Property Name="varPersistentID:{AA340D90-8655-4F6D-9C00-BD174F4271C1}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/01CPumpRunCmd</Property>
+	<Property Name="varPersistentID:{A71D7B1C-392C-4274-9B4D-E2CA889236F8}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/01TPumpSpeed</Property>
+	<Property Name="varPersistentID:{A8043DB2-FEC1-4CBD-BEC6-BD27480B268F}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/DO5</Property>
+	<Property Name="varPersistentID:{AA340D90-8655-4F6D-9C00-BD174F4271C1}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/01RunTPump</Property>
 	<Property Name="varPersistentID:{AA930009-0807-4F83-943C-9F8153888FD9}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO11</Property>
 	<Property Name="varPersistentID:{AAA84F4E-338A-4D57-9773-303ECEAEE70A}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO12</Property>
 	<Property Name="varPersistentID:{AABE9F9A-83A0-40BD-8B4C-8C8497077B18}" Type="Ref">/192.168.1.2/EtherCAT/TP/03LC/AI1</Property>
 	<Property Name="varPersistentID:{ABE680FE-0D40-4A2C-82DD-F90CD615544D}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI7</Property>
-	<Property Name="varPersistentID:{AD753622-4E8E-48FE-AB2B-49BA47D693C8}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/00Motor1RunInd</Property>
+	<Property Name="varPersistentID:{AC86C129-0285-4E0F-A745-B8B68824BC30}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI9</Property>
+	<Property Name="varPersistentID:{AD753622-4E8E-48FE-AB2B-49BA47D693C8}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/DO0</Property>
 	<Property Name="varPersistentID:{AE958442-F0C0-430D-B3A6-6D592D57A60E}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/AI13</Property>
 	<Property Name="varPersistentID:{AF49C429-0B64-4C7B-9523-F0B22E407899}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO0Safe2UTable</Property>
 	<Property Name="varPersistentID:{AF595846-3103-419D-968B-31957EFF4122}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/DO6</Property>
 	<Property Name="varPersistentID:{AF778A39-0510-48DA-A696-E47244228FC1}" Type="Ref">/192.168.1.2/EtherCAT/HPU/06DO/DO6</Property>
+	<Property Name="varPersistentID:{AF87E7FA-3748-4B0E-B619-08C4630D9957}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/00CloseADValve</Property>
+	<Property Name="varPersistentID:{AFF299B5-FECF-440D-8C7F-3991095FB4EF}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI15</Property>
 	<Property Name="varPersistentID:{B0956F81-3EF8-4371-8E8B-99A40D32295A}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/11Pend2SlowUp</Property>
 	<Property Name="varPersistentID:{B18CCFE1-AA78-4BA4-9ECA-D1100324D20E}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/04HEncoderINV1</Property>
 	<Property Name="varPersistentID:{B19C4025-065E-4B55-99AE-8E2B15B6F770}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/AI8</Property>
+	<Property Name="varPersistentID:{B478EE74-23B3-4F70-A789-F8B7A256E060}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/07DisEngageLocks</Property>
 	<Property Name="varPersistentID:{B5C644C4-E34F-4AB1-98F6-E9ED3AB56580}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI9</Property>
-	<Property Name="varPersistentID:{B6536E84-234F-4E02-A1E3-D7603399D3CD}" Type="Ref">/192.168.1.2/EtherCAT/HPU/06DO/DO5</Property>
+	<Property Name="varPersistentID:{B6536E84-234F-4E02-A1E3-D7603399D3CD}" Type="Ref">/192.168.1.2/EtherCAT/HPU/06DO/05RunWatHeater</Property>
 	<Property Name="varPersistentID:{B7B65D8F-0A8C-47E1-B145-7E95A842CE8C}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/11EVCPres</Property>
 	<Property Name="varPersistentID:{B847DA2D-2D38-4547-AABA-A74D1240507E}" Type="Ref">/192.168.1.2/EtherCAT/TP/01AI/AI3</Property>
 	<Property Name="varPersistentID:{B8B54B9C-1593-4EA0-AA76-320A2949CDD5}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Clamp State</Property>
-	<Property Name="varPersistentID:{B90F0538-F802-45E7-86E5-E34E25A80D30}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/19CPumpRunFB</Property>
-	<Property Name="varPersistentID:{BA5BFF1C-F61F-4798-ADFB-F010C76784AD}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/AO2</Property>
+	<Property Name="varPersistentID:{B90F0538-F802-45E7-86E5-E34E25A80D30}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/19TPumpRunFB</Property>
+	<Property Name="varPersistentID:{BA5BFF1C-F61F-4798-ADFB-F010C76784AD}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/02BBVPos</Property>
+	<Property Name="varPersistentID:{BB717FF1-55F6-43B3-903F-8798EA75C0FF}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/01OpenADValve</Property>
 	<Property Name="varPersistentID:{BB9735A5-1D7E-4F51-A1DD-2D560157D12C}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/02IsolateCityWater</Property>
 	<Property Name="varPersistentID:{BD8C1954-C605-40C9-90FC-7BADCF02D5B3}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Propotional State</Property>
 	<Property Name="varPersistentID:{BE885053-EE60-42FD-A379-14B16D793080}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/25NDoorOpenSW</Property>
@@ -175,32 +200,39 @@
 	<Property Name="varPersistentID:{C174EA74-3FDA-4E65-9D87-AB75CA3F2CAA}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI14</Property>
 	<Property Name="varPersistentID:{C1C99C18-FE56-4E77-A17A-D5E23ADD51D2}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/22BMEncoderA</Property>
 	<Property Name="varPersistentID:{C5883F7D-D19D-4AC2-BBB3-6D046E870BA5}" Type="Ref">/192.168.1.2/EtherCAT/TP/01AI/02TablePos</Property>
-	<Property Name="varPersistentID:{C869497C-1F70-47DD-922D-C70885C0F06E}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/05VSLPres</Property>
+	<Property Name="varPersistentID:{C869497C-1F70-47DD-922D-C70885C0F06E}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/05BodyPres</Property>
 	<Property Name="varPersistentID:{C8799916-2B89-4286-9B83-0C0D453DD133}" Type="Ref">/192.168.1.2/EtherCAT/HPU/06DO/DO7</Property>
+	<Property Name="varPersistentID:{C90D9AE1-3177-4E04-9CF0-08B904009E30}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI10</Property>
 	<Property Name="varPersistentID:{C98BD130-5D9F-4740-99C4-65D5543A6370}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI26</Property>
 	<Property Name="varPersistentID:{CBC4DF11-CB53-4560-A8B0-35F4FE5F238A}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/01RunMotor2</Property>
+	<Property Name="varPersistentID:{CBFEEB95-55B4-4EE4-B68D-C92F40670A94}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/02CloseBPValve</Property>
 	<Property Name="varPersistentID:{CCA63C2C-5595-4CDC-8BD6-8261AFF9315C}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/DO7</Property>
 	<Property Name="varPersistentID:{CD023550-F950-49E4-9B22-DB319318F51F}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI29</Property>
-	<Property Name="varPersistentID:{CE713639-E444-4F1A-BFE4-852F0372439E}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/18RemoteSwitch</Property>
-	<Property Name="varPersistentID:{D169B6DD-14A3-4EDB-B193-39BA8420B9BC}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/DO4</Property>
+	<Property Name="varPersistentID:{CE713639-E444-4F1A-BFE4-852F0372439E}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/18RemoteSW</Property>
+	<Property Name="varPersistentID:{D169B6DD-14A3-4EDB-B193-39BA8420B9BC}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/06DO/04StackLightW1</Property>
 	<Property Name="varPersistentID:{D1AE52F7-53F4-4F52-9D27-AD6CAD83A079}" Type="Ref">/192.168.1.2/EtherCAT/TP/03LC/AI2</Property>
 	<Property Name="varPersistentID:{D1F4876A-84D5-4B3C-9230-EA9B058ED58C}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/03HEncoderINV0</Property>
 	<Property Name="varPersistentID:{D253F112-C212-4627-9A49-78EA2A0D6AC3}" Type="Ref">/192.168.1.2/EtherCAT/HPU/05DO/00RunMotor1</Property>
 	<Property Name="varPersistentID:{D2DDCB4C-746E-4379-B475-F86D63C7195C}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/BR State</Property>
+	<Property Name="varPersistentID:{D304113F-2AD8-49F7-9DBA-B4A41F979A6F}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI1</Property>
 	<Property Name="varPersistentID:{D4A44A91-FA40-4C32-94EC-7D711D4EE392}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/14HOLSDSkidA</Property>
-	<Property Name="varPersistentID:{D57E6FEC-0C99-4F30-B155-0C472349BCD2}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/02VSLTemp</Property>
+	<Property Name="varPersistentID:{D57E6FEC-0C99-4F30-B155-0C472349BCD2}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/02BodyTemp</Property>
 	<Property Name="varPersistentID:{D5B5DB98-FFE8-4D1F-B801-1791FD3EE7F4}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Run All Steps</Property>
 	<Property Name="varPersistentID:{D600D3E7-658F-4D0A-99A7-552F53409A14}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/AI9</Property>
 	<Property Name="varPersistentID:{DA43B96D-E78D-458E-8D57-F91635F139DA}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/19HPUSkidLeak</Property>
 	<Property Name="varPersistentID:{DA718830-1189-424A-AB51-85ECEBBFD997}" Type="Ref">/192.168.1.2/EtherCAT/HPU/03AO/00DirSpdPump5</Property>
+	<Property Name="varPersistentID:{DA77CE21-028F-4899-857C-7541B55678AF}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI13</Property>
 	<Property Name="varPersistentID:{DCC63F55-15A3-42D3-B919-42AD263DB6A9}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/06OilTempA</Property>
+	<Property Name="varPersistentID:{DD9EB05B-9B3C-4313-83B5-65F2F490C3E1}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/09AirManVal5b</Property>
 	<Property Name="varPersistentID:{DDB30518-F2AB-4792-9C4A-95DD600DF247}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/02SLCRed1</Property>
 	<Property Name="varPersistentID:{E3DF8FF0-4DDF-4347-82E3-1077BD3DD58B}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO14</Property>
-	<Property Name="varPersistentID:{E54F0FF8-35AD-4C25-89A3-BAE7F3E6BD9F}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/00TCValve</Property>
+	<Property Name="varPersistentID:{E54F0FF8-35AD-4C25-89A3-BAE7F3E6BD9F}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/02AO/00BodyDumpVal</Property>
 	<Property Name="varPersistentID:{E61C9271-77D2-4832-A030-4C2D67F8CA38}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/05DO/03SLCAmber1</Property>
 	<Property Name="varPersistentID:{E6FD0380-6C44-4DEB-9A66-21DF9AFA1B90}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/03LC/02TankLC3</Property>
+	<Property Name="varPersistentID:{E70B0049-2535-40DB-AC0C-27585EE58630}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/14AirManVal8a</Property>
 	<Property Name="varPersistentID:{E72B9BE5-4876-4D98-BC64-DC4244A48574}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/03TripIndMtr2</Property>
-	<Property Name="varPersistentID:{EAEC4B91-A4F8-4FFE-8A78-A8BC6B120C95}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/28SPinDisEngaged</Property>
+	<Property Name="varPersistentID:{E8D28B4C-B32D-4B99-AC58-0D976AAE2A06}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/10BDVAirOn</Property>
+	<Property Name="varPersistentID:{EAEC4B91-A4F8-4FFE-8A78-A8BC6B120C95}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/28LocksDisEng</Property>
 	<Property Name="varPersistentID:{EC136380-4BFD-418F-9CE4-6429641A3998}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI20</Property>
 	<Property Name="varPersistentID:{EC1D9AF4-E2DC-46CC-ABF5-29BAF3512DD2}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/26SDoorOpenSW</Property>
 	<Property Name="varPersistentID:{ED0929FC-5A6D-413B-9B69-3F9C718233E5}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/AI10</Property>
@@ -327,7 +359,7 @@
 			<Item Name="Calibration.vi" Type="VI" URL="../Test VIs/Calibration.vi"/>
 		</Item>
 		<Item Name="UI Main.vi" Type="VI" URL="../UI Main.vi"/>
-		<Item Name="JR.ico" Type="Document" URL="../JR.ico"/>
+		<Item Name="VTF.ico" Type="Document" URL="../VTF.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -384,7 +416,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5FC7EC93-7FA2-4D06-98BE-F1B4F773199D}</Property>
-				<Property Name="Bld_version.build" Type="Int">88</Property>
+				<Property Name="Bld_version.build" Type="Int">89</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">VTF.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/VTF/VTF.exe</Property>
@@ -395,7 +427,8 @@
 				<Property Name="Destination[2].destName" Type="Str">Video Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/VTF/Video Files</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DB01F771-3F28-409D-94CF-57B7C7BA2122}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/VTF.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{57BF9111-D732-4B5E-AEF2-03BCFA0FBCB8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UI Main.vi</Property>
@@ -830,6 +863,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">400.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -840,7 +874,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="01AMBInTemp" Type="Variable">
+					<Item Name="01PitAmbTemp" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
@@ -853,6 +887,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">250.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -863,7 +898,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="02VSLTemp" Type="Variable">
+					<Item Name="02BodyTemp" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
@@ -876,6 +911,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">400.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -899,7 +935,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">400.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -910,7 +946,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="04WINLTemp" Type="Variable">
+					<Item Name="04WInletTemp" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
@@ -923,7 +959,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">250.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -934,7 +970,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="05VSLPres" Type="Variable">
+					<Item Name="05BodyPres" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
@@ -947,7 +983,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">5000.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -958,7 +994,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="06CPumpSpeed" Type="Variable">
+					<Item Name="06TPumpSpeed" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
@@ -971,7 +1007,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">100.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -995,7 +1031,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">400.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -1018,7 +1054,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -1035,10 +1071,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="10AMPres" Type="Variable">
+					<Item Name="10AccMPres" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
@@ -1051,7 +1088,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">7500.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -1075,7 +1112,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="Scaling:Coerce" Type="Str">False</Property>
 						<Property Name="Scaling:EngMax" Type="Str">5000.000000</Property>
 						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -1086,7 +1123,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI12" Type="Variable">
+					<Item Name="12BBVPos" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
@@ -1098,11 +1135,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AI13" Type="Variable">
+					<Item Name="13ABVPos" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
@@ -1114,7 +1151,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/01AI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -1130,6 +1167,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -1145,6 +1183,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -1161,7 +1200,7 @@ AddOutputFilter chunkFilter
 					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="cRIOModule.HotSwapMode" Type="Str">0</Property>
-					<Item Name="00TCValve" Type="Variable">
+					<Item Name="00BodyDumpVal" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
@@ -1174,11 +1213,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/02AO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/02AO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="01CVFDSpeed" Type="Variable">
+					<Item Name="01TPumpSpeed" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
@@ -1191,11 +1230,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/02AO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/02AO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AO2" Type="Variable">
+					<Item Name="02BBVPos" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
@@ -1207,10 +1246,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/02AO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="AO3" Type="Variable">
+					<Item Name="03ABVPos" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
@@ -1222,6 +1262,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/02AO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -1260,7 +1301,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/03LC/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/03LC/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -1325,7 +1366,7 @@ AddOutputFilter chunkFilter
 					<Property Name="crio.Type" Type="Str">NI 9425</Property>
 					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
-					<Item Name="00EStop" Type="Variable">
+					<Item Name="00VTFEStop" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
@@ -1337,7 +1378,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1353,7 +1394,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1369,7 +1410,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1385,7 +1426,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1401,7 +1442,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1417,7 +1458,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1433,7 +1474,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1449,7 +1490,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1465,7 +1506,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1481,7 +1522,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1497,7 +1538,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1513,7 +1554,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1529,7 +1570,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1545,7 +1586,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1561,7 +1602,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1577,7 +1618,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1593,11 +1634,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="17UpLocalSwitch" Type="Variable">
+					<Item Name="17UpLocalSW" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">17</Property>
@@ -1609,11 +1650,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="18RemoteSwitch" Type="Variable">
+					<Item Name="18RemoteSW" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">18</Property>
@@ -1625,11 +1666,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="19CPumpRunFB" Type="Variable">
+					<Item Name="19TPumpRunFB" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">19</Property>
@@ -1641,11 +1682,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="20CPumpACFault" Type="Variable">
+					<Item Name="20TPumpACFault" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">20</Property>
@@ -1657,11 +1698,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="21CylOELimSwitch" Type="Variable">
+					<Item Name="21CylOELimitSW" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">21</Property>
@@ -1673,7 +1714,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1709,7 +1750,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="24BPDCloseSwitch" Type="Variable">
+					<Item Name="24BPDCloseSW" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">24</Property>
@@ -1721,7 +1762,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1737,7 +1778,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1757,7 +1798,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="27SPinEngaged" Type="Variable">
+					<Item Name="27LocksEng" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">27</Property>
@@ -1769,11 +1810,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="28SPinDisEngaged" Type="Variable">
+					<Item Name="28LocksDisEng" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">28</Property>
@@ -1785,7 +1826,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1801,7 +1842,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1817,7 +1858,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1852,7 +1893,7 @@ AddOutputFilter chunkFilter
 					<Property Name="cRIOModule.DIO7_4InitialDir" Type="Str">0</Property>
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="cRIOModule.NumSyncRegs" Type="Str">11111111</Property>
-					<Item Name="00Motor1RunInd" Type="Variable">
+					<Item Name="DO0" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
@@ -1865,11 +1906,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/05DO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/05DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
-					<Item Name="01CPumpRunCmd" Type="Variable">
+					<Item Name="01RunTPump" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
@@ -1881,7 +1922,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/05DO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/05DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1897,7 +1938,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/05DO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/05DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -1913,7 +1954,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/05DO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/05DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -2009,7 +2050,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/06DO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/06DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
@@ -2026,7 +2067,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/06DO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/06DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
@@ -2063,7 +2104,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
-					<Item Name="DO4" Type="Variable">
+					<Item Name="04StackLightW1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
@@ -2075,11 +2116,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/06DO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/06DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="DO5" Type="Variable">
+					<Item Name="05StackLightW2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
@@ -2091,7 +2132,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/06DO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/06DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -2124,6 +2165,514 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/Chassis/Real-Time Scan Resources/06DO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+				</Item>
+				<Item Name="07DIO" Type="RIO C Series Module">
+					<Property Name="crio.Calibration" Type="Str">1</Property>
+					<Property Name="crio.Location" Type="Str">Slot 7</Property>
+					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+					<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
+					<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
+					<Property Name="crio.SDInputFilter" Type="Str">128</Property>
+					<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
+					<Property Name="crio.Type" Type="Str">NI 9375</Property>
+					<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
+					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
+					<Item Name="DI0" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI0</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI1" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI1</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI2" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI2</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI3" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI3</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI4" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI4</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI5" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI5</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI6" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI6</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI7" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI7</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI8" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI8</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI9" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI9</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI10" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI10</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI11" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI11</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI12" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI12</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI13" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI13</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI14" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI14</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="DI15" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DI15</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="00CloseADValve" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO0</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="01OpenADValve" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO1</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="02CloseBPValve" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO2</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="03OpenBPValve" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO3</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="04SelectHWater" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO4</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="05SelectCWater" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO5</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="06EngageLocks" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO6</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="07DisEngageLocks" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO7</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="08AirManVal5a" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO8</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="09AirManVal5b" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO9</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="10BDVAirOn" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO10</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="11BDVAirOff" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO11</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="12AirManVal7a" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO12</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="13AirManVal7b" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO13</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="14AirManVal8a" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO14</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
+						<Property Name="type" Type="Str">Industrial</Property>
+						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					</Item>
+					<Item Name="15AirManVal8b" Type="Variable">
+						<Property Name="featurePacks" Type="Str">Industrial</Property>
+						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+						<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
+						<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+						<Property Name="Industrial:Mode" Type="Str">1</Property>
+						<Property Name="Industrial:PhysicalName" Type="Str">DO15</Property>
+						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:UseBinding" Type="Str">False</Property>
+						<Property Name="Network:UseBuffering" Type="Str">True</Property>
+						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -2302,7 +2851,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/VTF 2/EtherCAT/HPU/01A1/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/01A1/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -2418,7 +2967,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="09AMBOutTemp" Type="Variable">
+					<Item Name="09HPUAmbTemp" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
@@ -2430,7 +2979,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/VTF 2/EtherCAT/HPU/01A1/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/01A1/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -2562,7 +3111,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/VTF 2/EtherCAT/HPU/02AO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/02AO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -2578,7 +3127,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/VTF 2/EtherCAT/HPU/02AO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/02AO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -2594,7 +3143,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/VTF 2/EtherCAT/HPU/02AO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/02AO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -2610,7 +3159,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/VTF 2/EtherCAT/HPU/02AO/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/02AO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -2726,7 +3275,7 @@ AddOutputFilter chunkFilter
 					<Property Name="ECAT.Module.VendorID" Type="UInt">505</Property>
 					<Property Name="ECAT.Name" Type="Str">04DI</Property>
 					<Property Name="ECAT.Slave.SelectedPDOIndex" Type="Str">6656:</Property>
-					<Item Name="00EStop" Type="Variable">
+					<Item Name="00HPUEStop" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
@@ -2738,7 +3287,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/VTF 2/EtherCAT/HPU/04DI/</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/04DI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -3329,7 +3878,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="05RunCoolFan" Type="Variable">
+					<Item Name="DO5" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
@@ -3341,10 +3890,11 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/05DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="06StopCoolFan" Type="Variable">
+					<Item Name="DO6" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
@@ -3356,6 +3906,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/05DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -3437,6 +3988,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/06DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -3485,7 +4037,7 @@ AddOutputFilter chunkFilter
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
-					<Item Name="DO5" Type="Variable">
+					<Item Name="05RunWatHeater" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
@@ -3497,6 +4049,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/HPU/06DO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -4146,6 +4699,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -4161,6 +4715,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -4176,6 +4731,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/01AI/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -4242,6 +4798,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/02LC/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -4257,6 +4814,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/02LC/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -4272,6 +4830,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/02LC/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -4287,6 +4846,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/02LC/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
@@ -4424,6 +4984,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/04DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -4439,6 +5000,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/04DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -4454,6 +5016,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/04DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -4469,6 +5032,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/04DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -4484,6 +5048,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/04DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -4499,6 +5064,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/04DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -4514,6 +5080,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/04DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!</Property>
 					</Item>
@@ -4665,6 +5232,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
+						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/04DIO/</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
 						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 					</Item>
