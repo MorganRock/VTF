@@ -69,12 +69,10 @@
 	<Property Name="varPersistentID:{4D489ADF-C307-4354-9D52-CDC626D684CD}" Type="Ref">/192.168.1.2/EtherCAT/TP/02LC/02TableLC3</Property>
 	<Property Name="varPersistentID:{50E44749-6D1F-4D57-866B-356AB5833419}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO1</Property>
 	<Property Name="varPersistentID:{518FFE0C-4DC3-438F-8E00-50233B7F174B}" Type="Ref">/192.168.1.2/EtherCAT/HPU/03AO/AO2</Property>
-	<Property Name="varPersistentID:{51FD565F-487F-497B-8B02-9B105FCFFD35}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/IT State</Property>
 	<Property Name="varPersistentID:{52DA2762-8982-4B19-83A7-684CAD38CF9E}" Type="Ref">/192.168.1.2/Deterministic TP SVs.lvlib/TP Pos</Property>
 	<Property Name="varPersistentID:{53439DCC-114D-4D70-A774-B8CFA8191DBF}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/13AirManVal7b</Property>
 	<Property Name="varPersistentID:{53D27BE5-8A3D-4DC1-93F6-B38B4FADE3BD}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/10AtSpeedMtr3</Property>
 	<Property Name="varPersistentID:{54A6F713-7E8D-42FF-B878-ED89415C7AB5}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI0</Property>
-	<Property Name="varPersistentID:{54F49F3C-3F30-454E-8273-398DA7579A32}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/DLT State</Property>
 	<Property Name="varPersistentID:{56357178-CD6A-4C25-99DA-9C984ECA2B9A}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/24BPDCloseSW</Property>
 	<Property Name="varPersistentID:{569DB2C5-708C-4C31-BADC-A13EB641F6F4}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/05SelectCWater</Property>
 	<Property Name="varPersistentID:{57AA7354-83DB-4F73-99E4-E498A794A451}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/03LC/01TankLC2</Property>
@@ -87,7 +85,6 @@
 	<Property Name="varPersistentID:{5EA1EDD8-D2D2-4993-A8A9-FDE9B11A25FD}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI22</Property>
 	<Property Name="varPersistentID:{5FFB042F-C625-409A-8FF8-C1B48103C435}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/01RMCompPres</Property>
 	<Property Name="varPersistentID:{6011227A-9A2B-4C33-83C6-8D9ECD99DD17}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/DI21</Property>
-	<Property Name="varPersistentID:{60E7E5E6-56D4-482B-AE5B-19C60CFF239A}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/OT State</Property>
 	<Property Name="varPersistentID:{64C1356A-8B92-44F9-9272-4C17CE728398}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/00HPUEStop</Property>
 	<Property Name="varPersistentID:{659FC69D-1BFE-47EE-91AB-CBCBB5AFAE98}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/AI11</Property>
 	<Property Name="varPersistentID:{666A35A9-4F0B-4839-B675-A805559DAACB}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/15LOLSDSkidB</Property>
@@ -104,7 +101,6 @@
 	<Property Name="varPersistentID:{6C5F4305-C785-44A1-A9FF-3393DE84840E}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI15</Property>
 	<Property Name="varPersistentID:{6C6114AF-4231-44AC-B72D-21F8D2BF5232}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/01AI/06TPumpSpeed</Property>
 	<Property Name="varPersistentID:{6E35A089-087B-4601-9B64-4C88A75901FD}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/13Pend2FastCW</Property>
-	<Property Name="varPersistentID:{6E57519C-351F-45BF-8DB0-514D36494BCA}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Leak Detection</Property>
 	<Property Name="varPersistentID:{6EFAF091-26F2-4E91-95E3-F97A65FB808A}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO15</Property>
 	<Property Name="varPersistentID:{6F0194FD-6487-4851-9C63-46DA49031AA7}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO2</Property>
 	<Property Name="varPersistentID:{6FC07D54-B0D1-4799-9A23-16D1F68CF472}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/02ExtCylPres</Property>
@@ -116,13 +112,11 @@
 	<Property Name="varPersistentID:{7698C53D-72D1-489F-B7C7-5970775AE0AF}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/07DIO/DI11</Property>
 	<Property Name="varPersistentID:{76EAD3B2-0B0E-4360-8965-9E5D416A4EFF}" Type="Ref">/192.168.1.2/EtherCAT/HPU/01A1/09HPUAmbTemp</Property>
 	<Property Name="varPersistentID:{77EA88C1-A24C-429B-AFE5-B1D7ED313BA2}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/01TripIndMtr5</Property>
-	<Property Name="varPersistentID:{78315A38-8622-4024-8E85-CD2EE9C797FE}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/IT ENG</Property>
 	<Property Name="varPersistentID:{78749C34-9DD8-4BE8-96E4-B54E0A45AAAD}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/30AccESDValOpen</Property>
 	<Property Name="varPersistentID:{792541CE-9630-4F42-825B-35E44FD02D16}" Type="Ref">/192.168.1.2/EtherCAT/HPU/02AO/02DirSpdPump3</Property>
 	<Property Name="varPersistentID:{7C515F8E-CCAF-4D66-827A-BD0B335C6DD6}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI11</Property>
 	<Property Name="varPersistentID:{7FA94D2C-DEC3-41DF-89DA-CC0F78F4AF54}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DI8</Property>
 	<Property Name="varPersistentID:{7FD701DB-F481-4542-B31E-C7954F9FFF00}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/Parameters</Property>
-	<Property Name="varPersistentID:{801A7D4D-1305-4434-AA5B-4E8B16B15608}" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib/OT ENG</Property>
 	<Property Name="varPersistentID:{8080E0EC-B24B-4C8B-8F99-183923B0A947}" Type="Ref">/192.168.1.2/EtherCAT/HPU/04DI/02AtSpeedMtr5</Property>
 	<Property Name="varPersistentID:{837A1FD1-00DD-4D40-9032-532CABA72E04}" Type="Ref">/192.168.1.2/EtherCAT/TP/04DIO/DO6</Property>
 	<Property Name="varPersistentID:{83B7A7A1-D6C9-4AF2-8A5C-0CB6F4154381}" Type="Ref">/192.168.1.2/VTF/Real-Time Scan Resources/04DI/06Pend1FastCCW</Property>
@@ -294,6 +288,7 @@
 			<Item Name="Config.ctl" Type="VI" URL="../Controls/Config.ctl"/>
 			<Item Name="ConfigCalibration.ctl" Type="VI" URL="../Controls/ConfigCalibration.ctl"/>
 			<Item Name="Control Mode.ctl" Type="VI" URL="../Controls/Control Mode.ctl"/>
+			<Item Name="Cylinder Force.ctl" Type="VI" URL="../Controls/Cylinder Force.ctl"/>
 			<Item Name="DI Status Message.ctl" Type="VI" URL="../Controls/DI Status Message.ctl"/>
 			<Item Name="DL State.ctl" Type="VI" URL="../Controls/DL State.ctl"/>
 			<Item Name="E-CD+ State.ctl" Type="VI" URL="../Controls/E-CD+ State.ctl"/>
@@ -333,27 +328,28 @@
 		</Item>
 		<Item Name="Log Files" Type="Folder"/>
 		<Item Name="Support VIs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
-			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../Support/Check Loop Error.vi"/>
 			<Item Name="Close Variable Connections.vi" Type="VI" URL="../Support/Close Variable Connections.vi"/>
+			<Item Name="Create Log File.vi" Type="VI" URL="../Support/Create Log File.vi"/>
+			<Item Name="DispalyStatus.vi" Type="VI" URL="../Support/DispalyStatus.vi"/>
+			<Item Name="Message - Acknowledge.vi" Type="VI" URL="../Support/Message - Acknowledge.vi"/>
+			<Item Name="Message - Confirm Leakage.vi" Type="VI" URL="../Support/Message - Confirm Leakage.vi"/>
+			<Item Name="Message - Confirm.vi" Type="VI" URL="../Support/Message - Confirm.vi"/>
+			<Item Name="Message - Password.vi" Type="VI" URL="../Support/Message - Password.vi"/>
+			<Item Name="Message - Timeout.vi" Type="VI" URL="../Support/Message - Timeout.vi"/>
+			<Item Name="Message - YesNo.vi" Type="VI" URL="../Support/Message - YesNo.vi"/>
+			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
+			<Item Name="NextStep.vi" Type="VI" URL="../Support/NextStep.vi"/>
+			<Item Name="Save Status to Log File.vi" Type="VI" URL="../Support/Save Status to Log File.vi"/>
+			<Item Name="Sensor Calibration.vi" Type="VI" URL="../Support/Sensor Calibration.vi"/>
+			<Item Name="Set Enable State on Multiple Controls No Grayedout.vi" Type="VI" URL="../Support/Set Enable State on Multiple Controls No Grayedout.vi"/>
 			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Support/Set Enable State on Multiple Controls.vi"/>
+			<Item Name="Status Message.vi" Type="VI" URL="../Support/Status Message.vi"/>
 			<Item Name="UI - Initiate Connection.vi" Type="VI" URL="../Support/UI - Initiate Connection.vi"/>
 			<Item Name="UI - Read IO Variables.vi" Type="VI" URL="../Support/UI - Read IO Variables.vi"/>
 			<Item Name="UI - Read Stream from RT.vi" Type="VI" URL="../Support/UI - Read Stream from RT.vi"/>
-			<Item Name="Status Message.vi" Type="VI" URL="../Support/Status Message.vi"/>
-			<Item Name="Message - Acknowledge.vi" Type="VI" URL="../Support/Message - Acknowledge.vi"/>
-			<Item Name="Message - Confirm.vi" Type="VI" URL="../Support/Message - Confirm.vi"/>
-			<Item Name="Message - YesNo.vi" Type="VI" URL="../Support/Message - YesNo.vi"/>
-			<Item Name="Message - Timeout.vi" Type="VI" URL="../Support/Message - Timeout.vi"/>
-			<Item Name="Save Status to Log File.vi" Type="VI" URL="../Support/Save Status to Log File.vi"/>
-			<Item Name="Create Log File.vi" Type="VI" URL="../Support/Create Log File.vi"/>
-			<Item Name="Message - Confirm Leakage.vi" Type="VI" URL="../Support/Message - Confirm Leakage.vi"/>
-			<Item Name="Message - Password.vi" Type="VI" URL="../Support/Message - Password.vi"/>
-			<Item Name="NextStep.vi" Type="VI" URL="../Support/NextStep.vi"/>
-			<Item Name="DispalyStatus.vi" Type="VI" URL="../Support/DispalyStatus.vi"/>
-			<Item Name="Sensor Calibration.vi" Type="VI" URL="../Support/Sensor Calibration.vi"/>
+			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 		</Item>
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Calibration.vi" Type="VI" URL="../Test VIs/Calibration.vi"/>
@@ -692,6 +688,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ConfigData.ctl" Type="VI" URL="../Controls/ConfigData.ctl"/>
 			<Item Name="ConfigString.ctl" Type="VI" URL="../Controls/ConfigString.ctl"/>
 			<Item Name="Control Mode.ctl" Type="VI" URL="../Controls/Control Mode.ctl"/>
+			<Item Name="Cylinder Force.ctl" Type="VI" URL="../Controls/Cylinder Force.ctl"/>
 			<Item Name="DI Status Message.ctl" Type="VI" URL="../Controls/DI Status Message.ctl"/>
 			<Item Name="DL State.ctl" Type="VI" URL="../Controls/DL State.ctl"/>
 			<Item Name="IT State.ctl" Type="VI" URL="../Controls/IT State.ctl"/>
@@ -739,9 +736,9 @@ AddOutputFilter chunkFilter
 			<Item Name="RT Loop - Watchdog.vi" Type="VI" URL="../RT Loops/RT Loop - Watchdog.vi"/>
 			<Item Name="RT Loop - Config Calibration.vi" Type="VI" URL="../RT Loops/RT Loop - Config Calibration.vi"/>
 			<Item Name="RT Loop - Pumps.vi" Type="VI" URL="../RT Loops/RT Loop - Pumps.vi"/>
-			<Item Name="RT Loop - DI Change.vi" Type="VI" URL="../RT Loops/RT Loop - DI Change.vi"/>
 			<Item Name="RT Loop - Propotional Update.vi" Type="VI" URL="../RT Loops/RT Loop - Propotional Update.vi"/>
 			<Item Name="RT Loop - TP Calc.vi" Type="VI" URL="../RT Loops/RT Loop - TP Calc.vi"/>
+			<Item Name="RT Loop - DI Changed.vi" Type="VI" URL="../RT Loops/RT Loop - DI Changed.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -4790,22 +4787,33 @@ AddOutputFilter chunkFilter
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
 						<Property Name="Industrial:PhysicalName" Type="Str">AI0</Property>
 						<Property Name="Network:BuffSize" Type="Str">50</Property>
+						<Property Name="Network:ElemSize" Type="Str">1</Property>
+						<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+						<Property Name="Network:SingleWriter" Type="Str">False</Property>
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/02LC/</Property>
+						<Property Name="Scaling:Coerce" Type="Str">False</Property>
+						<Property Name="Scaling:EngMax" Type="Str">200000.000000</Property>
+						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+						<Property Name="Scaling:EngUnit" Type="Str">lbf</Property>
+						<Property Name="Scaling:RawMax" Type="Str">0.003016</Property>
+						<Property Name="Scaling:RawMin" Type="Str">0.000000</Property>
+						<Property Name="Scaling:Type" Type="Str">Linear</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="01TableLC2" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -4814,14 +4822,21 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/02LC/</Property>
+						<Property Name="Scaling:Coerce" Type="Str">False</Property>
+						<Property Name="Scaling:EngMax" Type="Str">200000.000000</Property>
+						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+						<Property Name="Scaling:EngUnit" Type="Str">lbf</Property>
+						<Property Name="Scaling:RawMax" Type="Str">0.003003</Property>
+						<Property Name="Scaling:RawMin" Type="Str">0.000000</Property>
+						<Property Name="Scaling:Type" Type="Str">Linear</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="02TableLC3" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -4830,14 +4845,21 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/02LC/</Property>
+						<Property Name="Scaling:Coerce" Type="Str">False</Property>
+						<Property Name="Scaling:EngMax" Type="Str">200000.000000</Property>
+						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+						<Property Name="Scaling:EngUnit" Type="Str">lbf</Property>
+						<Property Name="Scaling:RawMax" Type="Str">0.003005</Property>
+						<Property Name="Scaling:RawMin" Type="Str">0.000000</Property>
+						<Property Name="Scaling:Type" Type="Str">Linear</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="03TableLC4" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -4846,9 +4868,15 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBinding" Type="Str">False</Property>
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
-						<Property Name="Path" Type="Str">/VTP.lvproj/192.168.1.2/EtherCAT/TP/02LC/</Property>
+						<Property Name="Scaling:Coerce" Type="Str">False</Property>
+						<Property Name="Scaling:EngMax" Type="Str">200000.000000</Property>
+						<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+						<Property Name="Scaling:EngUnit" Type="Str">lbf</Property>
+						<Property Name="Scaling:RawMax" Type="Str">0.003005</Property>
+						<Property Name="Scaling:RawMin" Type="Str">0.000000</Property>
+						<Property Name="Scaling:Type" Type="Str">Linear</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 				</Item>
 				<Item Name="03LC" Type="RIO C Series Module">
@@ -4890,6 +4918,7 @@ AddOutputFilter chunkFilter
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
 						<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 						<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+						<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 						<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 						<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 						<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -4899,7 +4928,7 @@ AddOutputFilter chunkFilter
 						<Property Name="Network:UseBuffering" Type="Str">True</Property>
 						<Property Name="numTypedefs" Type="UInt">0</Property>
 						<Property Name="type" Type="Str">Industrial</Property>
-						<Property Name="typeDesc" Type="Bin">(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+						<Property Name="typeDesc" Type="Bin">*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 					</Item>
 					<Item Name="AI1" Type="Variable">
 						<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -5507,12 +5536,12 @@ AddOutputFilter chunkFilter
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="VTF Firmware" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{5F7EC8EA-17A0-4861-B891-AA1D27620FEA}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{746893B0-BC72-4A1F-940A-9C6D610D4088}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{53446763-0736-41E7-A602-1A03124680E7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{084030C8-D1FF-42E8-BA60-9D6F0F87EEB6}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Halliburton.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{2D4C9294-700F-4C1E-94CE-F0CA74D12F87}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5DEA0781-416B-4CDF-A350-A2F1EEC9915F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">VTF Firmware</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -5520,9 +5549,9 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/VTF Firmware</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{261E75D5-7F7F-412D-AB36-9EE6A1A79ACF}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6B9BB8D8-EF34-442D-8803-B305406ECC23}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -5533,59 +5562,40 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D3DC647C-4A25-447D-92CF-EED37080E8C6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{62E47F60-3ECC-4DCF-9C3D-1D903AD63665}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/192.168.1.2/RT Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/192.168.1.2/Controls</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/192.168.1.2/Alarms.txt</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/192.168.1.2/Error Handlers</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/192.168.1.2/Config.ini</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/192.168.1.2/Globals</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/192.168.1.2/RT Loops</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/192.168.1.2/Deterministic TP SVs.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/192.168.1.2/Support VIs</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/192.168.1.2/Shared Variables.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/192.168.1.2/Deterministic Loop Variables.lvlib</Property>
-				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">Library</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/192.168.1.2/Shared Variables.lvlib</Property>
-				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Halliburton</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">VTF Firmware</Property>
 				<Property Name="TgtF_internalName" Type="Str">VTF Firmware</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Halliburton</Property>
 				<Property Name="TgtF_productName" Type="Str">VTF Firmware</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{EA0C5040-CD58-48DD-982A-BE037D49799E}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{BB4DB1C2-6F97-462A-865E-DE5E66A0EDA7}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
